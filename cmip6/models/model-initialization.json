@@ -1,0 +1,22 @@
+{
+    "ipsl-cm6a-lr": {
+        "atmos": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }, 
+        "land": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }, 
+        "ocean": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }, 
+        "seaice": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }, 
+        "toplevel": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }
+    }
+}

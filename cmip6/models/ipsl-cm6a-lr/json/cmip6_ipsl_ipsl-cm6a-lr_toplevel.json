@@ -1,0 +1,21 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ipsl", 
+    "seedingSource": "cmip5:ipsl-cm5a-lr", 
+    "sourceID": "ipsl-cm6a-lr", 
+    "topic": "toplevel", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "IPSL-CM5A-LR;atmosphere:LMDZ5A(95x96L39);ocean:NEMOv3.2 (OPA-LIM-PISCES,149x182L31)"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "IPSL-CM5A-LR is the low resolution version of the IPSL-CM5A Earth system model. The resolution is 1.875\u00b0x3.75\u00b0 with 39 vertical level for the atmosphere (96x95L39) and about 2\u00b0 (with a meridional increased resolution of 0.5\u00b0 near the equator) and with 31 vertical levels for the ocean (149x182L31).\r\n\r\nIPSL-CM5A is one of the two configurations of the IPSL-CM5 model for CMIP5, the second one being IPSL-CM5B, with a different set of atmospheric physical parameterizations.\r\n\r\nIPSL-CM5A is an Earth system model based on an improved version of the IPSL-CM4 coupled ocean-atmosphere GCM that was used in CMIP3. Compared with IPSL-CM4, IPSL-CM5A includes among others the following improvements:\r\n(i) An increase vertical resolution of the atmosphere from 19 to 39 vertical levels, with 15 levels above 20 km\r\n(ii) six different species of aerosols that can be either externally prescribed or computed on-line\r\n(iii) stratospheric and tropospheric ozone can be either prescribed or computed on-line\r\n(iv) improved physical parameterizations of the ocean\r\n(v)  carbon cycle models for both the  ocean part and  terrestrial part and land use change can be externally imposed\r\n\r\nMore information: http://icmc.ipsl.fr/"
+            ]
+        }
+    }
+}
