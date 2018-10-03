@@ -1,4 +1,15 @@
 {
+    "ipsl-cm6a-atm-hr": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }
+    }, 
     "ipsl-cm6a-lr": {
         "toplevel": {
             "publish": "off"

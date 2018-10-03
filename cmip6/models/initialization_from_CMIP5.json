@@ -1,5 +1,19 @@
 {
+    "ipsl-cm6a-atm-hr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }
+    }, 
     "ipsl-cm6a-lr": {
+        "toplevel": {
+            "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }, 
         "atmos": {
             "initializedFrom": "cmip5:ipsl-cm5a-lr"
         }, 
@@ -13,9 +27,6 @@
             "initializedFrom": "cmip5:ipsl-cm5a-lr"
         }, 
         "seaice": {
-            "initializedFrom": "cmip5:ipsl-cm5a-lr"
-        }, 
-        "toplevel": {
             "initializedFrom": "cmip5:ipsl-cm5a-lr"
         }
     }

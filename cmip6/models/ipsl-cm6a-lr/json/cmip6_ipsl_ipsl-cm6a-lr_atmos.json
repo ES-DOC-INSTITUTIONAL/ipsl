@@ -93,16 +93,6 @@
                 "sponge layer"
             ]
         }, 
-        "cmip6.atmos.dynamical_core.top_boundary.top_heat": {
-            "values": [
-                "N/A"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.top_boundary.top_wind": {
-            "values": [
-                "N/A"
-            ]
-        }, 
         "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.calculation_method": {
             "values": [
                 "spatially dependent", 
@@ -318,8 +308,8 @@
         }, 
         "cmip6.atmos.radiation.aerosols": {
             "values": [
-                "BC (black carbon / soot)", 
-                "POM (particulate organic matter)", 
+                "BC", 
+                "POM", 
                 "dust", 
                 "sea salt", 
                 "sulphate"

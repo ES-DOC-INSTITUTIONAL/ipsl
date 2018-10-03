@@ -7,11 +7,6 @@
     "authors": [], 
     "contributors": [], 
     "content": {
-        "cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases": {
-            "values": [
-                "N/A"
-            ]
-        }, 
         "cmip6.land.carbon_cycle.soil.carbon_pools": {
             "values": [
                 "Active, slow and passive soil carbon"
@@ -137,7 +132,7 @@
         }, 
         "cmip6.land.snow.snow_albedo.type": {
             "values": [
-                "prognostic"
+                "Other: diagnostic"
             ]
         }, 
         "cmip6.land.snow.snow_cover_fractions": {
@@ -158,11 +153,6 @@
         "cmip6.land.soil.heat_treatment.heat_storage": {
             "values": [
                 "Explicit diffusion"
-            ]
-        }, 
-        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
-            "values": [
-                "N/A"
             ]
         }, 
         "cmip6.land.soil.hydrology.method": {
@@ -188,26 +178,6 @@
         "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
             "values": [
                 2
-            ]
-        }, 
-        "cmip6.land.soil.soil_map.albedo": {
-            "values": [
-                "N/a"
-            ]
-        }, 
-        "cmip6.land.soil.soil_map.structure": {
-            "values": [
-                "N/a"
-            ]
-        }, 
-        "cmip6.land.soil.soil_map.texture": {
-            "values": [
-                "N/a"
-            ]
-        }, 
-        "cmip6.land.soil.soil_map.water_table": {
-            "values": [
-                "N/a"
             ]
         }, 
         "cmip6.land.vegetation.biomass": {
