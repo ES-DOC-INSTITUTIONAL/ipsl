@@ -132,7 +132,7 @@
         }, 
         "cmip6.land.snow.snow_albedo.type": {
             "values": [
-                "Other: diagnostic"
+                "prognostic"
             ]
         }, 
         "cmip6.land.snow.snow_cover_fractions": {
