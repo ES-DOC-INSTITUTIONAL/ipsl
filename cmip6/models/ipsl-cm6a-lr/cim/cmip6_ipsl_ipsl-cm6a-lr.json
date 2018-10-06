@@ -1,13 +1,17 @@
 {
+    "description": "IPSL-CM5A-LR is the low resolution version of the IPSL-CM5A Earth system model. The resolution is 1.875°x3.75° with 39 vertical level for the atmosphere (96x95L39) and about 2° (with a meridional increased resolution of 0.5° near the equator) and with 31 vertical levels for the ocean (149x182L31).\r\n\r\nIPSL-CM5A is one of the two configurations of the IPSL-CM5 model for CMIP5, the second one being IPSL-CM5B, with a different set of atmospheric physical parameterizations.\r\n\r\nIPSL-CM5A is an Earth system model based on an improved version of the IPSL-CM4 coupled ocean-atmosphere GCM that was used in CMIP3. Compared with IPSL-CM4, IPSL-CM5A includes among others the following improvements:\r\n(i) An increase vertical resolution of the atmosphere from 19 to 39 vertical levels, with 15 levels above 20 km\r\n(ii) six different species of aerosols that can be either externally prescribed or computed on-line\r\n(iii) stratospheric and tropospheric ozone can be either prescribed or computed on-line\r\n(iv) improved physical parameterizations of the ocean\r\n(v)  carbon cycle models for both the  ocean part and  terrestrial part and land use change can be externally imposed\r\n\r\nMore information: http://icmc.ipsl.fr/",
+    "modelType": "GCM",
+    "name": "IPSL-CM6A-LR",
     "meta": {
         "institute": "ipsl",
-        "createDate": "2018-10-05 16:04:02.238524",
+        "createDate": "2018-10-06 12:12:27.589974",
         "project": "cmip6",
         "source": "spreadsheet",
         "version": 1,
         "type": "cim.2.science.Model",
-        "id": "014ae9d6-6d64-4074-9d26-38528497dd5a"
+        "id": "c7d67555-7040-49d4-ae27-818994e44d43"
     },
+    "canonicalID": "ipsl-cm6a-lr",
     "realms": [
         {
             "processes": [
@@ -1034,12 +1038,12 @@
             "specializationID": "cmip6.atmos",
             "name": "Atmos",
             "meta": {
-                "createDate": "2018-10-05 16:04:02.239031",
+                "createDate": "2018-10-06 12:12:27.591279",
                 "project": "cmip6",
                 "source": "spreadsheet",
                 "version": 1,
                 "type": "cim.2.science.Realm",
-                "id": "3d247041-776b-452a-84a7-68121f4776fc"
+                "id": "3158802b-c9d8-4b24-b85a-f32812d5a346"
             },
             "grid": {
                 "meta": {
@@ -1793,12 +1797,12 @@
             "description": "Land Surface",
             "specializationID": "cmip6.land",
             "meta": {
-                "createDate": "2018-10-05 16:04:02.240958",
+                "createDate": "2018-10-06 12:12:27.594159",
                 "project": "cmip6",
                 "source": "spreadsheet",
                 "version": 1,
                 "type": "cim.2.science.Realm",
-                "id": "2dbf01c3-d099-4c81-851c-00aaa2864aba"
+                "id": "8ff26ff9-bf6d-42eb-8298-89d902fbede4"
             },
             "keyProperties": {
                 "properties": [
@@ -2684,12 +2688,12 @@
             "specializationID": "cmip6.ocean",
             "name": "Ocean",
             "meta": {
-                "createDate": "2018-10-05 16:04:02.242579",
+                "createDate": "2018-10-06 12:12:27.596050",
                 "project": "cmip6",
                 "source": "spreadsheet",
                 "version": 1,
                 "type": "cim.2.science.Realm",
-                "id": "106e3c09-87d8-4960-a485-013431ca3fe6"
+                "id": "64097682-5d2f-4c51-b850-cda9438b061c"
             },
             "grid": {
                 "meta": {
@@ -2992,12 +2996,12 @@
             "description": "Ocean Biogeochemistry",
             "specializationID": "cmip6.ocnbgchem",
             "meta": {
-                "createDate": "2018-10-05 16:04:02.243917",
+                "createDate": "2018-10-06 12:12:27.597817",
                 "project": "cmip6",
                 "source": "spreadsheet",
                 "version": 1,
                 "type": "cim.2.science.Realm",
-                "id": "84c60aa3-0960-4d4b-8017-559de3d4a479"
+                "id": "d6a59b95-561b-430a-acdd-92f60404e899"
             },
             "keyProperties": {
                 "description": "Ocean Biogeochemistry key properties",
@@ -3374,12 +3378,12 @@
             "specializationID": "cmip6.seaice",
             "name": "Seaice",
             "meta": {
-                "createDate": "2018-10-05 16:04:02.244604",
+                "createDate": "2018-10-06 12:12:27.598647",
                 "project": "cmip6",
                 "source": "spreadsheet",
                 "version": 1,
                 "type": "cim.2.science.Realm",
-                "id": "dfb37c18-b1e1-41d0-9913-d3e31ca4b418"
+                "id": "a9caa933-285c-4889-b71b-086e1c1afffd"
             },
             "grid": {
                 "meta": {
@@ -3479,7 +3483,37 @@
             }
         }
     ],
-    "canonicalID": "ipsl-cm6a-lr",
-    "modelType": "GCM",
-    "name": "IPSL-CM6A-LR"
+    "longName": "IPSL-CM5A-LR;atmosphere:LMDZ5A(95x96L39);ocean:NEMOv3.2 (OPA-LIM-PISCES,149x182L31)",
+    "keyProperties": {
+        "properties": [
+            {
+                "values": [
+                    "IPSL-CM5A-LR;atmosphere:LMDZ5A(95x96L39);ocean:NEMOv3.2 (OPA-LIM-PISCES,149x182L31)"
+                ],
+                "meta": {
+                    "type": "cim.2.science.TopicProperty"
+                },
+                "specializationID": "cmip6.toplevel.key_properties.name",
+                "name": "Name",
+                "description": "Name of coupled model"
+            },
+            {
+                "values": [
+                    "IPSL-CM5A-LR is the low resolution version of the IPSL-CM5A Earth system model. The resolution is 1.875°x3.75° with 39 vertical level for the atmosphere (96x95L39) and about 2° (with a meridional increased resolution of 0.5° near the equator) and with 31 vertical levels for the ocean (149x182L31).\r\n\r\nIPSL-CM5A is one of the two configurations of the IPSL-CM5 model for CMIP5, the second one being IPSL-CM5B, with a different set of atmospheric physical parameterizations.\r\n\r\nIPSL-CM5A is an Earth system model based on an improved version of the IPSL-CM4 coupled ocean-atmosphere GCM that was used in CMIP3. Compared with IPSL-CM4, IPSL-CM5A includes among others the following improvements:\r\n(i) An increase vertical resolution of the atmosphere from 19 to 39 vertical levels, with 15 levels above 20 km\r\n(ii) six different species of aerosols that can be either externally prescribed or computed on-line\r\n(iii) stratospheric and tropospheric ozone can be either prescribed or computed on-line\r\n(iv) improved physical parameterizations of the ocean\r\n(v)  carbon cycle models for both the  ocean part and  terrestrial part and land use change can be externally imposed\r\n\r\nMore information: http://icmc.ipsl.fr/"
+                ],
+                "meta": {
+                    "type": "cim.2.science.TopicProperty"
+                },
+                "specializationID": "cmip6.toplevel.key_properties.overview",
+                "name": "Overview",
+                "description": "Top level overview of coupled model"
+            }
+        ],
+        "meta": {
+            "type": "cim.2.science.Topic"
+        },
+        "specializationID": "cmip6.toplevel.key_properties",
+        "description": "Key properties of the model",
+        "name": "Key Properties"
+    }
 }
