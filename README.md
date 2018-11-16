@@ -1,2 +1,2 @@
 # ipsl
-IPSL documentation archive
+IPSL documentation archive.
