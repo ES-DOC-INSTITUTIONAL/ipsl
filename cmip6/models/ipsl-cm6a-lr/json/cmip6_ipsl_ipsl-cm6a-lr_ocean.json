@@ -29,7 +29,7 @@
         "cmip6.ocean.key_properties.prognostic_variables": {
             "values": [
                 "Potential temperature", 
-                "SSH", 
+                "SSH: Sea Surface Height", 
                 "Salinity", 
                 "U-velocity", 
                 "V-velocity"
@@ -62,7 +62,7 @@
         }, 
         "cmip6.ocean.timestepping_framework.tracers.scheme": {
             "values": [
-                "Leap-frog + Asselin filter"
+                "Leap-frog + Asselin filter: Leap-frog scheme with Asselin filter"
             ]
         }, 
         "cmip6.ocean.advection.momentum.type": {
@@ -97,12 +97,12 @@
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.order": {
             "values": [
-                "Harmonic"
+                "Harmonic: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
             "values": [
-                "Second order"
+                "Second order: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
@@ -132,12 +132,12 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.order": {
             "values": [
-                "Harmonic"
+                "Harmonic: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
-                "Second order"
+                "Second order: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
@@ -157,7 +157,7 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
             "values": [
-                "GM"
+                "GM: Gent & McWilliams"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {

@@ -20,11 +20,6 @@
                 "LIM3.6 (Louvain-la-Neuve Ice Model v3.6) is a multi-category halo-thermodynamic dynamic sea ice model embedded the NEMO environment (including the horizontal grid). LIM3.6 is based on the Arctic Ice Dynamics Joint EXperiment (AIDJEX) framework (Coon et al., 1974), combining the ice thickness distribution framework, the conservation of horizontal momentum, an elastic-viscous plastic rheology, and energy-conserving halo-thermodynamics. Virtually all of these components of the sea ice model have been introduced or revised since CMIP5."
             ]
         }, 
-        "cmip6.seaice.key_properties.variables.overview": {
-            "values": [
-                "Prognostic variables target ice and snow mass, enthalpy and salt content, split over ice categories; plus horizontal velocity vector components and internal stress tensor. "
-            ]
-        }, 
         "cmip6.seaice.key_properties.variables.prognostic": {
             "values": [
                 "Sea ice concentration", 
@@ -40,12 +35,7 @@
         }, 
         "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
             "values": [
-                "TEOS-10"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.resolution.overview": {
-            "values": [
-                "The grid (362 * 332 * 75 levels) is quasi-isotropic grid with about 50 km in the Arctic and from about 50 to 25 km south of 60\u00b0S. There are 75 vertical levels, XX of which are located in the upper 500 m."
+                "TEOS-10: Thermodynamic equation of seawater 2010."
             ]
         }, 
         "cmip6.seaice.key_properties.resolution.name": {
@@ -61,11 +51,6 @@
         "cmip6.seaice.key_properties.resolution.number_of_horizontal_gridpoints": {
             "values": [
                 120184
-            ]
-        }, 
-        "cmip6.seaice.key_properties.tuning_applied.overview": {
-            "values": [
-                "Combination of offline and online tuning."
             ]
         }, 
         "cmip6.seaice.key_properties.tuning_applied.description": {
@@ -113,11 +98,6 @@
                 "dry snow albedo: 0.87, melting snow albedo: 0.82, dry ice albedo: 0.65, melting ice albedo: 0.58, minimum lead fraction (north): 0.997, minimum lead fraction (south): 0.95"
             ]
         }, 
-        "cmip6.seaice.key_properties.assumptions.overview": {
-            "values": [
-                "Ice dynamics: ice is a 2D viscous-plastic continuum, vertical motion is negligible. Ice thermodynamics: ice is horizontally infinitely wide, no horizontal heat transfer. Snow is horizontally uniform and covers all ice. No dynamic melt ponds. No interactive drags. No blowing snow. All rains fall into the ocean."
-            ]
-        }, 
         "cmip6.seaice.key_properties.assumptions.on_diagnostic_variables": {
             "values": [
                 "Fields that are not part of sea ice representation: sisnconc (snow area fraction), simpconc (melt pond area fraction), simpmass (melt pond mass per area), simprefrozen (thickness of refrozen ice on ponds), sirdgconc (ridged ice area fraction), sirdgmass (ridged ice thickness), sidmasslat (lateral sea ice melt rate), sndmasswindrif (snow mass change through wind drift of snow). Fields which value is trivial: sipr (rainfall over sea ice) - all rain falls in open water. sidragtop (atmospheric drag over sea ice) is specified in the atmospheric component. sidragbot (oceanic drag over sea ice): namelist parameter."
@@ -126,11 +106,6 @@
         "cmip6.seaice.key_properties.assumptions.missing_processes": {
             "values": [
                 "No dynamic melt ponds, no interactive drags, no blowing snow"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.conservation.overview": {
-            "values": [
-                "Conservation of ice mass, thermal energy and salt mass is tracked."
             ]
         }, 
         "cmip6.seaice.key_properties.conservation.description": {
@@ -163,14 +138,9 @@
                 "The horizontal grid (362 * 332 grid points) is the quasi-isotropic curvilinear extended ORCA grid with about 50 km resolution in the Arctic and from about 50 to 25 km south of 60\u00b0S. We use 5 thickness categories, 1 snow layer and 2 layers of sea ice."
             ]
         }, 
-        "cmip6.seaice.grid.discretisation.overview": {
-            "values": [
-                "Finite differences horizontally and vertically, semi-lagrangian in thickness space."
-            ]
-        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
-                "Ocean grid"
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
             ]
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
@@ -200,7 +170,7 @@
         }, 
         "cmip6.seaice.grid.discretisation.vertical.layering": {
             "values": [
-                "Multi-layers"
+                "Multi-layers: Simulation uses more than two layers."
             ]
         }, 
         "cmip6.seaice.grid.discretisation.vertical.number_of_layers": {
@@ -211,11 +181,6 @@
         "cmip6.seaice.grid.discretisation.vertical.additional_details": {
             "values": [
                 "2 layers of snow and 1 layer of sea ice are used"
-            ]
-        }, 
-        "cmip6.seaice.grid.seaice_categories.overview": {
-            "values": [
-                "The thickness distribution is discretized over 5 thickness categories (Lipscomb, 2001). The ice thickness in each category is free to evolve between fixed boundaries. All state variables depend on category."
             ]
         }, 
         "cmip6.seaice.grid.seaice_categories.has_mulitple_categories": {
@@ -231,16 +196,6 @@
         "cmip6.seaice.grid.seaice_categories.category_limits": {
             "values": [
                 "0, 0.4540, 1.1293, 2.1415, 3.6706, 99."
-            ]
-        }, 
-        "cmip6.seaice.grid.seaice_categories.ice_thickness_distribution_scheme": {
-            "values": [
-                "The thickness distribution is discretized over 5 thickness categories (Lipscomb, 2001), each characterized by a specific area fraction (or ice concentration). The ice thickness in each category is free to evolve between fixed boundaries. All state variables depend on category. Transport in thickness space due to thermodynamic growth and melt follows Lipscomb (2001). Opening, ridging and rafting due to non-uniform ice motion follow from Vancoppenolle et al (2009)."
-            ]
-        }, 
-        "cmip6.seaice.grid.snow_on_seaice.overview": {
-            "values": [
-                "1 layer of snow with constant properties"
             ]
         }, 
         "cmip6.seaice.grid.snow_on_seaice.has_snow_on_ice": {
@@ -298,11 +253,6 @@
                 "Sea ice thermodynamics conserve water mass, heat and salt mass. Ice gains mass through basal growth, snow ice formation, new ice in open water and refreezing of seawater into newly formed ridges; ice loses mass by surface and basal melting. Snow gains mass by precipitation and loses mass by melting, snow ice formation and sublimation.The internal temperature profile derives from the heat diffusion equation using S- and T-dependent expressions for enthalpy (Bitz and Lispcomb, 1999) and thermal conductivity (Pringle et al. 2007). The salt entrapment and drainage parameterization follow from Vancoppenolle et al. (2009): each category is characterised by a dynamic mean salinity, from which a profile shape is derived for the computation of the vertical diffusion of heat."
             ]
         }, 
-        "cmip6.seaice.thermodynamics.energy.overview": {
-            "values": [
-                "Atmosphere and ocean fluxes provide energy to the sea ice system, which either contributes to warming or to mass changes. Energy is conserved in the sea ice model and followed process by process, making sure any input of energy will translate into changes in ice heat content."
-            ]
-        }, 
         "cmip6.seaice.thermodynamics.energy.enthalpy_formulation": {
             "values": [
                 "Pure ice latent and sensible heat + explicit brine inclusions (Bitz and Lipscomb)"
@@ -333,11 +283,6 @@
                 "All liquid precipitation goes to the ocean. A fraction of solid precipitation goes into the ocean as well."
             ]
         }, 
-        "cmip6.seaice.thermodynamics.mass.overview": {
-            "values": [
-                "Ice gains mass by basal growth, snow ice formation, new ice in open water and refreezing of seawater into newly formed ridges; ice loses mass by surface and basal melting."
-            ]
-        }, 
         "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
             "values": [
                 "If seawater at the freezing point loses heat, a volume of new ice forms. The thickness of this new ice volume is specified using a prescribed thickness h0. The fractional area is computed accordingly. New ice temperature is the freezing point. New ice salinity is given by Kovacs (1996)."
@@ -358,11 +303,6 @@
                 "There is no frazil ice formation other than new ice formation."
             ]
         }, 
-        "cmip6.seaice.thermodynamics.salt.overview": {
-            "values": [
-                "The salt entrapment and drainage parameterization follow from Vancoppenolle et al. (2009): each category is characterised by a dynamic mean salinity, from which a profile shape is derived for the computation of the vertical diffusion of heat."
-            ]
-        }, 
         "cmip6.seaice.thermodynamics.salt.has_multiple_sea_ice_salinities": {
             "values": [
                 "FALSE"
@@ -375,7 +315,7 @@
         }, 
         "cmip6.seaice.thermodynamics.salt.mass_transport.salinity_type": {
             "values": [
-                "Other: Prognostic vertically-averaged salinity with diagnostic profile. "
+                "Other: Prognostic vertically-averaged salinity with diagnostic profile."
             ]
         }, 
         "cmip6.seaice.thermodynamics.salt.mass_transport.additional_details": {
@@ -385,7 +325,7 @@
         }, 
         "cmip6.seaice.thermodynamics.salt.thermodynamics.salinity_type": {
             "values": [
-                "Other: Prognostic vertically-averaged salinity with diagnostic profile. "
+                "Other: Prognostic vertically-averaged salinity with diagnostic profile."
             ]
         }, 
         "cmip6.seaice.thermodynamics.salt.thermodynamics.additional_details": {
@@ -393,24 +333,9 @@
                 "Prognostic vertically-averaged salinity changes due to salt entrapment during growth and snow-ice formation, to gravity drainage and flushing. Profile is linear with zero-surface value for S\u22642, constant for S\u22654 and a mixture of both extremes in between."
             ]
         }, 
-        "cmip6.seaice.thermodynamics.ice_thickness_distribution.overview": {
-            "values": [
-                "Ice thickness distribution is explicitly resolved. Thermodynamics are computed for each category. Transport in thickness space follows from Lipscomb (2001). Mechanical redistribution due to ridgng and rafting follows form Vancoppenolle et al. (2009)."
-            ]
-        }, 
         "cmip6.seaice.thermodynamics.ice_thickness_distribution.representation": {
             "values": [
                 "Explicit"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.ice_floe_size_distribution.overview": {
-            "values": [
-                "No floe size distribution"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.melt_ponds.overview": {
-            "values": [
-                "There are no melt ponds in the model. Just the albedo calculation implicitly accounts for melt ponds through a prescribed decrease of surface albedo whenever surface is melting."
             ]
         }, 
         "cmip6.seaice.thermodynamics.melt_ponds.are_included": {
@@ -421,11 +346,6 @@
         "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
             "values": [
                 "Other: None"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.snow_processes.overview": {
-            "values": [
-                "Snow is represented using one layer with constant thermal properties. Snow gains mass due to precipitation and loses mass due to surface melting, snow ice formation and sublimation."
             ]
         }, 
         "cmip6.seaice.thermodynamics.snow_processes.has_snow_aging": {
