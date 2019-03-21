@@ -1,7 +1,7 @@
 {
     "mipEra": "cmip6", 
     "institute": "ipsl", 
-    "seedingSource": null, 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "ipsl-cm6a-lr", 
     "topic": "toplevel", 
     "content": {
@@ -62,7 +62,7 @@
         }, 
         "cmip6.toplevel.key_properties.software_properties.coupler": {
             "values": [
-                "OASIS3-MCT"
+                "OASIS3-MCT: The MCT variant of the OASIS coupler"
             ]
         }, 
         "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
@@ -80,6 +80,36 @@
                 "FALSE"
             ]
         }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "The tuning of IPSL-CM6A was targeting the representation of key processes involved in climate and climate sensitivity and the reduction of well known biases of the mean climatology rather than modes of variability or \u201cuser\u201d oriented metrics. Also the tuning was done to the present-day climate and not to historical trends, except for some late tuning of the indirect aerosol effect.\nThe surface temperature, both on continental surface and ocean were given a particular importance, with a specific work on continental mid-latitude, polar ice sheets, and semi arid tropical region (in particular Sahel). Over ocean tuning was targeting specifically the reduction of the well known \u201cSST warm biases\u201d over the eastern Side of Tropical Ocean and around the Antarctic. Eyes have also kept track of a possible warm bias in the austral ocean, which was prominent in previous versions of the model but happily didn\u2019t appear persistently in IPSL-CM6A-LR.\nMost of the sea ice tuning was done offline, through a long history of forced-atmosphere OMIP-type runs. Ice dynamics were adjusted during that procedure (in particular the ice strength parameter P*) and satisfactory results were easily obtained in such setups. The targets were: the observed seasonal cycle of Arctic and Antarctic sea ice extents, and an annual mean Arctic sea ice volume of 20,000 km3. We did not control the Southern Ocean ice volume. The tuning was approximate in that there was no strictly applied criterion, but only a visual verification.\nOnce in coupled mode, it was a bit more complicated to achieve reasonable Arctic sea ice. The atmospheric tuning targeted the observed SST from 50S to 50N, which left positive winter air temperature biases in the Arctic. As a consequence, winter ice would insufficiently grow and summer ice would typically disappear. To compensate for these deficiencies, we increased the surface albedo for all surface types (to reduce melting), giving 0.58 for the diffuse broadband melting bare ice albedo and the thermal conductivity of snow to 0.5 W/m/K (to increase winter growth), up to what we considered their largest acceptable values. That we did not go beyond unphysical boundaries for these parameters left a low summer sea ice extent bias of about 1-2 million sq km2 (depending on ensemble members).\nSimilarly, the North Atlantic Meridional Overtuning Circulation (AMOC) was too weak in the first versions of the model, and having a strong enough Atlantic overturning circulation was also considered as an important target. Unfortunately, summer Arctic sea ice extent and AMOC strength were very strongly tied in the model, with a strengthened AMOC yielding more poleward heat transport and less Arctic sea ice. While this chain of interactions may have physical basis (e.g. Zhang et al., 2017), we had to find ways around it so as to enable a tuning of both of the crucial elements of the climate system.\nThe representation of clouds and of their radiative effect were a dominant target of the tuning as well as the representation of surface meteorology. This part benefited from significant improvements in the model content which helped make the tuning not extreme.\nThe tuning was targeting the present-day climate and not the historical trend. In fact, during all the development phase and tuning of the model, it was suspected that the model ECS (Equilibrium Climate Sensitivity) was probably in the upper range, or even maybe outside the range of previously estimated values. However, this was never seen as a metrics for target, conserving thus the idea that ECS should be an emerging property of the model. The amplitude of the historical warming was only somewhat adjusted when it was discovered that the overestimation was probably due for a large part for the cancellation of the aerosol indirect radiative effect after changes in the cloud tuning. Only this amplitude of the aerosol radiative forcing (in terms of present-day/preindustrial contrast) was adjusted but not \u201cgiving too much importance\u201d to the agreement between the simulated and observed XXth century.\nIn order to make full use of observations of the last decade, the adjustment of the coupled model was done on present-day conditions first. For this, the missing oceanic heat uptake, which should normally prevent running equilibrium simulation in present-day conditions, was replaced by an artificial offset of the oceanic albedo by 0.007. The SST between 50N and 50S was favored as a target for this tuning because of the robustness of the observations. However, the compromise was made accepting an underestimation of this averaged SST to allow to a more realistic Arctic sea ice extent. This choice can also be related to the fact that the bias in SST is generally more positive in the 50N-50S band than on the full globe. Once this present-day tuning accomplished, the simulation is then continued with preindustrial conditions removing the surface albedo offset."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "The main global target of the fully coupled model was the present-day global temperature.\nWhile both global near surface air temperature and SSTS were considered, it was finally chosen to use as a target the mean SST averaged between 50S and 50N which, because of the absence of sea ice all year long, is a much more robust metric than global 2m atmospheric temperature or global SST. As explained in the introduction, this target was used for present-day equilibrium simulations, done with the historical forcing of the decade 1990-2010, introducing an 0.007 offset of the oceanic albedo in order to compensate for the absence of oceanic heat uptake. At the end, the final tuning of the mean SST was adjusted about 0.4 K colder than observed, as a compromise, in order to keep enough sea ice over the Antarctic in summer, while all the sea ice parameters were already been pushed to their maximum tolerance (maximum value of albedo and thermal conductivity in particular). Whatever its tuning, the model reaches equilibrium for a slightly positive value (~0.7 W/m2) of the global top-of-atmosphere radiative balance, due to non conservation problems in the model.\nIn the limit of our possibilites, the target was a reasonable seasonal cycle of ice extent in both hemispheres and 20,000 km3 for the Arctic sea ice volume in winter.\nNot only the global radiative balance (or global temperature in the coupled model) was used as a target for tuning, but also the individual value of the global absorbed solar radiation and of the global outgoing longwave radiation. Also the decomposition of each of this fluxes in terms of clear sky and radiative effect of clouds were considered.\nThe total rainfall was also looked at. As is often the case in climate models, it is larger than observations. Although it was not used really as a target (knowing the observation errors on this global metrics are not well known), it may have pushed some model choices toward a reduced global rainfall."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Several regional regional metrics were directly used for tuning:\n1/ The latitudinal distribution of radiation (and its decomposition between LW/SW and clear sky/clouds) in the sand alone atmospheric simulations (checking that it was not much affected by coupling with ocean).\n2/ The surface temperature on continental surfaces in coupled continent-atmosphere simulations. Some regions were particularly looked at because the availability in the team of site observations and associated expertise: Sirta (Paris area, France), Dome C (Antarctica)  and AMMA-Catch observatory (Sahel, Africa). The averaged continental surface temperature over Europe, Siberia and North America were considered as targets for tuning, through eyes control of maps of seasonal of near surface air temperature biases.\n3/ Spatial contrasts in top-of-atmosphere radiative fluxes or surface fluxes (turbulence and radiation) in stand alone atmospheric simulations, targeting some classical SST \u201cwarm biases\u201d over the East Tropical Oceans and around Antarctica. The metrics were computed as an index contrasting two parts of the ocean with masks. The effect of this tuning on SST was checked using root mean square errors of the SST mean seasonal cycle between 50S and 50N, removing or not the mean bias, as well as by checking seasonal climatological maps.\n4/ The seasonal distribution of sea ice was monitored and looked at regularly, and the extension of the northern sea ice in autumn (as it minimum seasonal value) was used directly as a metric for tuning.\n5/ The temperature profiles in the ocean\n6/ The intensity of the Atlantic overturning circulation was a target of the tuning and the geographical distribution and intensity of deep water convection was looked at regularly for configuration selection.\n7/ The stationary waves in the Northern Hemisphere were tuned by adjusting the values of the subgrid scale orographic scheme in LMDZ.\n8/ Some choices of configuration were made based on ENSO behavior.\nSome constraints which were checked rather systematically and may have influenced some choices:\n1/ Position of  mid latitude atmospheric Jets\n2/ Monsoon rainffall distribution\n3/ Structure of the ITCZ\n4/ The intensity of overturning cell associated with AABW."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "It was deliberately chosen not to use the XXth century as a tuning of the model ECS. No choice in the cloud or convective schemes were guided by a particular target on the ECS nor by a matching of the historical temperature trends.\nHowever, looking at simulations with an extreme warming in the temperature evolution over the XXth century, it was realized that, because of changes in the tuning of the cloud model, the aerosol indirect effect (difference between present day and preindustrial period) was null. The relationship used to relate the aerosol climatology to the condensation nuclei concentration was thus readjusted which helped reduce the discrepancy with trend observations. However, the indirect effect of the final version is quite weak and this tuning has no effect on the ECS."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.energy_balance": {
+            "values": [
+                "The energy balance of the full coupled system comes automatically from the model self consistency. At equilibrium, the unbalance comes in fact from model energy conservation problems.\nThe energy balance of the atmosphere-continent surface forced by SST was tuned with an additional offset, in order to get the target SST in coupled model. Because of the model climate sensitivity, there is about a 1K to 1W/m2 relationship between a modification of the top-of-atmosphere global radiative budget in the forced by SST stand alone atmospheric model and a modification of the global mean temperature in coupled atmosphere-ocean simulations.\nBecause probably of errors in the relationship between TOA and surface fluxes, or because of biases in coupled SSTs that can change the TOA unbalance, there is an offset between the radiative balance at present-day with forced SSTs (~2.4 W/m2) and the top-of-atmosphere budget in the coupled model for present-day conditions (~0.7 W/m2).\nEnergy conservation is not fully conserved by the model. It is not properly conserved in particular for water phase changes in the atmospheric models.\nBut the offset between the global balance in coupled and stand-alone atmospheric simulations makes it possible to target a change of SST in the coupled model by targeting a change in the global radiative balance in the stand alone atmospheric simulations, which can be obtained in very short simulations (of a few years)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "Water conservation was checked carefully within the model components and in their couplings. Transfers between the various components were not tuned."
+            ]
+        }, 
         "cmip6.toplevel.key_properties.conservation.heat.global": {
             "values": [
                 "The coupled model does not completely conserve energy as a number of (very) small fluxes between the components are not fully represented in the coupled model (e.g. energy flux in run-off or precipitation). Therefore the energy balance is not quite achieved, and the model equilibrates with a net top-of-atmosphere radiative imbalance of ~0.7 W.m-2."
@@ -88,6 +118,11 @@
         "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface": {
             "values": [
                 "Fluxes of latent heat, sensible heat and radiation are conserved at the atmos-ocean interface. Nevertheless fluxes of energy associated with the temperature of hydrometeors are not conserved at the surface (hydrometeors are assumed to reach the ocean surface at the sea surface (or sea-ice) temperature)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface": {
+            "values": [
+                "Budget tests (bils + latent heat of melting and accumulating snow) showed an imbalance for continents of 0.7 W/m2. Favouring surface coupling rather than energy conservation induces an imbalance in the upwards LW radiation on surface of ~0.2 W/m2 between ORCHIDEE and LMDz.\nIce thermodynamics were activated in LMDz, and therefore snow is differentiated from rain (solid/liquid water).\nTaking into account the sensible heat flux due to the temperature difference between falling rain and surface was tested during the preparation of CMIP6 (Wang et al., 2016): on average, the impact on the energy balance on the surface and in the meteorological variables in the vicinity of the surface was feeble. The option was not retained for CMIP6. The order of magnitude on continents was -0.3 W/m2, yearly average (Wang et al., 2016). In those tests, the rain temperature was considered equal to that of the air in the first atmospheric layer."
             ]
         }, 
         "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface": {
@@ -150,74 +185,64 @@
                 "GHG (CO2, CH4, N2O, CFC11, CFC12 including HCFC), aerosols (sulfate, OC, BC, nitrate), radiation and cloud interactions, landuse, Ndep, stratospheric aerosols, solar"
             ]
         }, 
-        "cmip6.toplevel.radiative_forcings.greenhouse_gases.overview": {
-            "values": [
-                "CO2, CH4, N2O, CFC11, CFC12 including HCFC"
-            ]
-        }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
             "values": [
-                "Option 3"
-            ]
-        }, 
-        "cmip6.toplevel.radiative_forcings.aerosols.overview": {
-            "values": [
-                "sulfate, BC, OC, nitrate, aerosol radiative effect (SW only), aerosol cloud effect"
+                "Option 3: Ozone depleting gases, including CFC-12, are provided as an equivalence concentration of CFC-12 and all other fluorinated gases are provided as an equivalence concentration of HFC-134a"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
@@ -227,7 +252,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
             "values": [
-                "N/A"
+                "N/A: Not applicable - forcing agent is not included"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
@@ -242,7 +267,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
@@ -252,32 +277,32 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
             "values": [
-                "N/A"
+                "N/A: Not applicable - forcing agent is not included"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
             "values": [
-                "Other: document to the right"
+                "Other: N/A"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
             "values": [
-                "Other: document to the right"
+                "Other: N/A"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
             "values": [
-                "Other: document to the right"
+                "Other: CMIP6 dataset with SW/LW tailored to LMDz6 radiation transfer wavebands."
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
             "values": [
-                "Type B"
+                "Type B: Explosive volcanic aerosol returns rapidly to constant (average volcano)"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information": {
@@ -287,7 +312,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
@@ -297,7 +322,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.other.land_use.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.other.land_use.crop_change_only": {
