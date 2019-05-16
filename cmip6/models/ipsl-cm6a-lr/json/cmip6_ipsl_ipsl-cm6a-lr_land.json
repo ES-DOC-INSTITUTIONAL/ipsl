@@ -10,6 +10,11 @@
                 "ORCHIDEE surface model"
             ]
         }, 
+        "cmip6.land.key_properties.keywords": {
+            "values": [
+                "energy budget, water budget, carbon budget"
+            ]
+        }, 
         "cmip6.land.key_properties.overview": {
             "values": [
                 "ORCHIDEE (ORganizing Carbon and Hydrology In Dynamic EcosystEms) is a land-surface model that simulates the energy and water cycles of soil and vegetation, the terrestrial carbon cycle, and the vegetation composition and distribution (Krinner et al, 2005). The land surface is described as a mosaic of twelve plant functional types (PFTs) and bare soil. The definition of PFT is based on ecological parameters such as plant physiognomy (tree or grass), leaves (needle-leaf or broad-leaf), phenology (evergreen, summergreen or raingreen) and photosynthesis pathways for crops and grasses (C3 or C4). Relevant biophysical and biogeochemical parameters are prescribed for each PFT.\nExchanges of energy (latent, sensible, and kinetic energy) and water, between the atmosphere and the biosphere are based on the work of Ducoudr\u00e9 et al (1993); de Rosnay and Polcher (1998) and calculated at a 30min time step together with the exchange of carbon during photosynthesis. The soil water budget within the standard version of ORCHIDEE is done with a 2-layers bucket model (de Rosnay and Polcher, 1998). The water that is not infiltrated or drained at the bottom of the soil is transported through rivers and aquifers (d\u2019Orgeval et al, 2008). This routing scheme allows re-evaporation of the water on its way to the ocean through floodplains or irrigation (de Rosnay et al, 2003).\nThe exchanges of water and energy at the land surface are interlinked with the exchange of carbon. The vegetation state (ie foliage density, interception capacity, soil-water stresses) is computed dynamically within ORCHIDEE (Krinner et al, 2005) and accounts for carbon assimilation, carbon allocation and senescence processes. Carbon exchange at the leaf level during photosynthesis is based on Farquhar et al (1980) and Collatz et al (1992) for C3 and C4 photosynthetic pathways, respectively. Concomitant water exchange through transpiration is linked to photosynthesis via the stomatal conductance, following the formulation of Ball et al (1987). Photosynthesis is calculated at a 30min time step while carbon allocation in the different soil-plant reservoirs is performed at a daily time step."
@@ -20,6 +25,57 @@
                 "Other: ice", 
                 "Bare soil", 
                 "Vegetated"
+            ]
+        }, 
+        "cmip6.land.grid.overview": {
+            "values": [
+                " ", 
+                "A common vertical discretization is adopted when solving the heat and moisture transfer into the soil (Zhang et al. 2016). In the upper two meters, the discretization  is optimized  for the moisture transfer and for the most nonlinear process (de Rosnay et al., 2000), with 11 nodes from the surface up to 2m. The node distance of each layer below 2 m is set to 1 m, the total depth for the  soil is set to 90m. For the moisture a free drainage condition  implies that soil moisture  is constant below the lower node."
+            ]
+        }, 
+        "cmip6.land.grid.horizontal.description": {
+            "values": [
+                "The horizontal grid is  long-lat grid identical to the  one used by the atmospheric model. It has 143 points on the longitude and 142 on the latitude"
+            ]
+        }, 
+        "cmip6.land.grid.vertical.description": {
+            "values": [
+                "A common vertical discretization is adopted when solving the heat and moisture transfer into the soil (Zhang et al. 2016). In the upper two meters, the discretization  is optimized  for the moisture transfer and for the most nonlinear process (de Rosnay et al., 2000), with 11 nodes from the surface up to 2m. The node distance of each layer below 2 m is set to 1 m, the total depth for the  soil is set to 90m. For the moisture a free drainage condition  implies that soil moisture  is constant below the lower node."
+            ]
+        }, 
+        "cmip6.land.grid.vertical.total_depth": {
+            "values": [
+                90.0
+            ]
+        }, 
+        "cmip6.land.soil.heat_water_coupling": {
+            "values": [
+                "the soil heat transfer and the moisture diffusion are coupled through the moisture dependence of the thermal properties"
+            ]
+        }, 
+        "cmip6.land.soil.number_of_soil layers": {
+            "values": [
+                18.0
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.texture": {
+            "values": [
+                "The model uses three soil textures. Their geographical distribution is given by the Food and Agriculture Organization map,as intepolated by Zobler (1986), this author's orginal 5 textural classes (fine, medium\u2010fine, medium, medium\u2010coarse, and coarse)  are reduced to 3 (fine, medium, and coarse), the medium one one comprising the medium\u2010fine, medium, and medium\u2010coarse Zobler classes. "
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.organic_matter": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.continuously_varying_soil_depth": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.soil_depth": {
+            "values": [
+                "constant depth (90m)"
             ]
         }, 
         "cmip6.land.soil.snow_free_albedo.functions": {
@@ -34,17 +90,27 @@
         }, 
         "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
             "values": [
-                2
+                2.0
             ]
         }, 
         "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
             "values": [
-                2
+                2.0
             ]
         }, 
         "cmip6.land.soil.hydrology.method": {
             "values": [
-                "Choisnel"
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.description": {
+            "values": [
+                "Resolution of a Fourier Law of diffusion equation for heat with a zero flux condition at a limited soil depth (90m),"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.time_step": {
+            "values": [
+                900.0
             ]
         }, 
         "cmip6.land.soil.heat_treatment.heat_storage": {
@@ -59,7 +125,7 @@
         }, 
         "cmip6.land.snow.number_of_snow_layers": {
             "values": [
-                1
+                1.0
             ]
         }, 
         "cmip6.land.snow.density": {
@@ -141,12 +207,12 @@
         }, 
         "cmip6.land.energy_balance.overview": {
             "values": [
-                "Other for SchemeMethod:Processes: bare soil evaporation, intercepted water evaporation, snow sublimation, longwave radiation, shortwave radiation, ground heat flux_x000D_\nThe ORCHIDEE land surface energy balance scheme calculates the fluxes of latent and sensible heat that are passed between the soil/vegetation and the atmosphere. Latent heat comprises calculations for sublimination, canopy transpiration and the evaporation of soil and water in the foliage._x000D_\nEach type of vegetation, or Plant Functional Type (PFT) is treated as a single-layer canopy model. Bare soil is a further PFT. Computations are performed separately for each type of vegetation and an average is taken to determine the overall flux for the grid square in question."
+                "Other for SchemeMethod:Processes: bare soil evaporation, intercepted water evaporation, snow sublimation, longwave radiation, shortwave radiation, ground heat flux_x000D_\nThe ORCHIDEE land surface energy balance scheme calculates the fluxes of latent and sensible heat that are passed between the soil/vegetation and the atmosphere. Latent heat comprises calculations for sublimination, canopy transpiration and the evaporation of soil and water in the foliage._x000D_\nEach type of vegetation, or Plant Functional Type (PFT) is treated as a single-layer canopy model. Bare soil is a further PFT. Computations are performed separately for each type of vegetation and an average is taken to determine the overall flux for the grid square in question. An implicit equation is solved for the surface temperature."
             ]
         }, 
         "cmip6.land.energy_balance.number_of_surface_temperatures": {
             "values": [
-                1
+                1.0
             ]
         }, 
         "cmip6.land.energy_balance.evaporation": {
@@ -154,9 +220,14 @@
                 "Combined"
             ]
         }, 
+        "cmip6.land.carbon_cycle.name": {
+            "values": [
+                "ORCHIDEE - STOMATE"
+            ]
+        }, 
         "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
             "values": [
-                8
+                8.0
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
@@ -176,7 +247,7 @@
         }, 
         "cmip6.land.carbon_cycle.soil.number_of_carbon_pools": {
             "values": [
-                4
+                4.0
             ]
         }, 
         "cmip6.land.carbon_cycle.soil.carbon_pools": {
@@ -191,7 +262,7 @@
         }, 
         "cmip6.land.river_routing.number_of_reservoirs": {
             "values": [
-                3
+                3.0
             ]
         }, 
         "cmip6.land.river_routing.coupled_to_atmosphere": {

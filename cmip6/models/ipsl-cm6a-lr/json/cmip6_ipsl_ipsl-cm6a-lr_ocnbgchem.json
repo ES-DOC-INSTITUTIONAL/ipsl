@@ -17,12 +17,12 @@
         }, 
         "cmip6.ocnbgchem.key_properties.model_type": {
             "values": [
-                "PFT: Several plankton types"
+                "PFT"
             ]
         }, 
         "cmip6.ocnbgchem.key_properties.elemental_stoichiometry": {
             "values": [
-                "Mix of both: Both fixed and mixed stoichiometry"
+                "Mix of both"
             ]
         }, 
         "cmip6.ocnbgchem.key_properties.elemental_stoichiometry_details": {
@@ -229,7 +229,7 @@
         }, 
         "cmip6.ocnbgchem.tracers.disolved_organic_matter.lability": {
             "values": [
-                "Semi-labile: Few days to a few years"
+                "Semi-labile"
             ]
         }, 
         "cmip6.ocnbgchem.tracers.particules.method": {
