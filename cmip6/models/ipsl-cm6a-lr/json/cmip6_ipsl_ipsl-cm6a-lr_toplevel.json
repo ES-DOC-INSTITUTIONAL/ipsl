@@ -47,7 +47,7 @@
         }, 
         "cmip6.toplevel.key_properties.software_properties.code_version": {
             "values": [
-                "6.1.1 to 6.1.8 with various changes in model output"
+                "6.1.1 to 6.1.9 with various changes in model output"
             ]
         }, 
         "cmip6.toplevel.key_properties.software_properties.code_languages": {
@@ -62,7 +62,12 @@
         }, 
         "cmip6.toplevel.key_properties.software_properties.coupler": {
             "values": [
-                "OASIS3-MCT: The MCT variant of the OASIS coupler"
+                "OASIS3-MCT"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.overview": {
+            "values": [
+                "For most of the fields, the sea-ice model acts as an interface model between atmosphere and ocean. The sea-ice model receive the fluxes for free ocean and sea-ice. It computes the evolution of sea-ice, and then send average fluxes to ocean. Ocean does not know whether its surface is ice covered or not. It receives only mean fluxes. However, the run-off coming from the ocean pours directly into the ocean. The ice calving is considered as a source of pure water for the ocean.\nFields sent from atmosphere to ocean (including sea-ice)\u00a0: solar flux (mean and sea-ice), non-solar flux (=\u00a0turbulent fluxes\u00a0+\u00a0\uf073T4, mean and sea-ice), \u2202Q/\u2202T for non-solar fluxes (sea-ice), wind stress (mean), liquid and solid precipitation (mean), evaporation (mean, sea-ice). Fluxes are averaged over a coupling period.\nFluxes sent are the mean and the value for sea-ice only. Ocean fluxes are rebuilt from this quantities using Qocean = (Qmean \u2013 IceFraction*Qsea-ice)/(1- IceFraction). This always works because IceFraction is strictly below 1.\nFor the surface temperature (ocean and sea-ice) and the sea-ice albedo, a ponderation is applied. The average over a coupling time step off IceFraction*[Temperature, Albedo] is sent by the ocean. On the atmosphere side, temperature and albedo are rebuilt from these quantities divided by the average of the fraction (ocean or sea-ice).\nAmongst the fields sent by the atmosphere is \u2202Q/\u2202T. This field is the derivative of turbulent heat fluxes over sea-ice in respect to surface temperature. To compute the temperature at the upper surface of the ice, the sea-ice model uses an implicit scheme with request the derivative of non-solar fluxes. The sea-ice model computes the derivative of the long wave flux using the \u2019black corpse\u2019 law, and adds the part from turbulent fluxes send by the atmosphere. Additionally, this term is used to compute the flux for each ice category.\nAt the beginning of each coupling time step, the coupler sends the fields to each model. The fields are averaged over a coupling period, generally one day. \nIn the ocean, the fields are received, then sent to the sea-ice model, except for the river run-off which is directly sent to the ocean. The ocean also sends the surface ocean characteristics (sea-surface temperature and salinity, surface currents). The sea-ice model computes the sea-ice evolution and the fluxes (heat, water, salt and momentum). The fluxes are sent to the ocean. They are identical to those coming from the atmosphere for areas free of sea-ice. The sea-ice model sends also the sea-ice fraction and albedos, which are not needed for the ocean model itself, but are needed for transmission to the atmosphere. The ocean then performs a few time-steps (typically 2 to 5) before calling the sea-ice model once again. At the end of the coupling time-step, the ocean sends the needed fields to the coupler, and waits for its forcing fields.\nThe fraction of sea-ice is evolving during one coupling time-step. The surface characteristics (surface temperatures and albedos) sent by the ocean should be coherent with this evolution. For sea-ice albedo for instance, the ocean computes the average over the coupling time step . In the atmosphere, the model computes the correct albedo with a. Sea and sea-ice surface temperatures are processed the same way.\nAt the end of the last time-step of the job, the coupler writes all fields in restart files. The following job of the experiment will read these file to initiate the boundary conditions. To start a new experiment, the user should provide these files.\nAt the ocean-atmosphere interface, the interpolation schemes are designed to conserve extensive quantities globally but also locally. Nevertheless, the time sequence of the model yields to a loss or gain in energy and water. The atmosphere model computes average surface fluxes over free ocean and over sea-ice during the coupling time step t-1 (currently one day). These fluxes are then send to the ocean which uses them with a sea-ice cover which has evolved, and keeps evolving during the time step t. At the end of time-step t, the integrated flux received by the ocean could be different, and probably is, from those sent at the end of time-step t-1."
             ]
         }, 
         "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
@@ -78,6 +83,11 @@
         "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
             "values": [
                 "FALSE"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.overview": {
+            "values": [
+                "The tuning of the IPSL-CM6A model has been a long process alternating phases of tuning or improvements of individual components in stand alone mode (Orchidee for continental surfaces, LMDZ for the atmosphere and NEMO for the ocean) and phases of tests of the full coupled model.\nTuning of the atmospheric component LMDZ for the coupled model was a long lasting 3-year iterative process. Phases of code modification (or tuning of a particular aspect) in standalone atmospheric simulations (with continental surfaces but with imposed SSTs) included retuning of the energetics. This systematic retuning has been done about 20 times, each time by running one or a few series of typically 10 sensitivity experiments to the most uncertain parameters that control most the radiative budget: cloud and convection parameters.  Not only the global energy balance was targeted in this tuning but also individually the long-wave (LW) and short-wave (SW) radiation, the contribution of Cloud Radiative Effect (CRE), as well as key elements of their space-time distribution that were targeting the reduction in particular of SST biases of the coupled model.\nFor the coupling between atmosphere and continental surfaces, pairs of simulations were systematically used, running the model either in free climate mode or \u201cnudged\u201d by winds from reanalyses, in order to isolate the behavior of the coupled atmosphere-continent column and make use of in-situ measurements.\nThe ocean was also tuned in standalone mode first and then coupled to the atmosphere. Note that the tuning of the oceanic component benefited from the fact that the same configuration was used in four CMIP6 coupled models (Deshayes et al. in prep.).\nThe specific tuning of the ocean-atmosphere coupling at IPSL was done over 2 years, by targeting in particular (i) Arctic sea ice (annual mean volume and minimum extent), (ii) deep convection sites in the North Atlantic, (iii) Southern Ocean and (iv) Atlantic overturning. Summer Arctic sea ice extent was systematically underestimated associated with a warm atmospheric winter Arctic bias. Enforcing the North Atlantic deep convection sites in the Labrador Sea where they should be was a classical problem. The Southern ocean tended to form a very strong polynya, with impacts on the deep (1000 m) oceanic temperature. The Atlantic overturning circulation, was generally too weak but difficult to precisely constrain given the lack of observations and the fact that it is tied to several other processes. \nThis tuning was done in an iterative manner building about 15 configurations. From the main deficiencies of the new version, a new series of sensitivity experiment was often defined for stand alone atmospheric simulations (as explained above). Sensitivity experiments in coupled mode to the oceanic model turbulent parameters, sea ice parameters, or two options in the atmospheric physics using previous tuning in stand alone atmospheric simulations were also designed. Also the parameters of the subgrid scale orography parameterisation were tuned in coupled mode in order to improve the representation of the planetary stationary planetary waves, the meridional component of which is key for the Arctic ice distribution.\nNot much effort was put in this overall process in tuning or selecting versions with user oriented metrics, and mode of variability like ENSO, MJO, etc.\nNote that the frequency of the Quasi Biennal Oscillation was tuned as well, using some parameter of the non orographic gravity wave scheme."
             ]
         }, 
         "cmip6.toplevel.key_properties.tuning_applied.description": {
@@ -185,64 +195,74 @@
                 "GHG (CO2, CH4, N2O, CFC11, CFC12 including HCFC), aerosols (sulfate, OC, BC, nitrate), radiation and cloud interactions, landuse, Ndep, stratospheric aerosols, solar"
             ]
         }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.overview": {
+            "values": [
+                "CO2, CH4, N2O, CFC11, CFC12 including HCFC"
+            ]
+        }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
             "values": [
-                "Option 3: Ozone depleting gases, including CFC-12, are provided as an equivalence concentration of CFC-12 and all other fluorinated gases are provided as an equivalence concentration of HFC-134a"
+                "Option 3"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.overview": {
+            "values": [
+                "sulfate, BC, OC, nitrate, aerosol radiative effect (SW only), aerosol cloud effect"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
@@ -252,7 +272,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
             "values": [
-                "N/A: Not applicable - forcing agent is not included"
+                "N/A"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
@@ -267,7 +287,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
@@ -277,7 +297,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
             "values": [
-                "N/A: Not applicable - forcing agent is not included"
+                "N/A"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
@@ -292,7 +312,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
@@ -302,7 +322,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
             "values": [
-                "Type B: Explosive volcanic aerosol returns rapidly to constant (average volcano)"
+                "Type B"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information": {
@@ -312,7 +332,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
@@ -322,7 +342,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.other.land_use.provision": {
             "values": [
-                "Y: Prescribed concentrations, distributions or time series data"
+                "Y"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.other.land_use.crop_change_only": {

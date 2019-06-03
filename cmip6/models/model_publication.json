@@ -2,32 +2,32 @@
     "ipsl-cm6a-atm-hr": {
         "toplevel": {
             "publish": "off"
-        }, 
+        },
         "atmos": {
             "publish": "off"
-        }, 
+        },
         "land": {
             "publish": "off"
         }
-    }, 
+    },
     "ipsl-cm6a-lr": {
         "toplevel": {
-            "publish": "off"
-        }, 
+            "publish": "on"
+        },
         "atmos": {
-            "publish": "off"
-        }, 
+            "publish": "on"
+        },
         "land": {
-            "publish": "off"
-        }, 
+            "publish": "on"
+        },
         "ocean": {
-            "publish": "off"
-        }, 
+            "publish": "on"
+        },
         "ocnbgchem": {
-            "publish": "off"
-        }, 
+            "publish": "on"
+        },
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }
 }
