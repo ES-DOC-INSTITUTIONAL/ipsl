@@ -1,0 +1,399 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ipsl", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "Rousset2015", 
+            "doi": "10.5194/gmd-8-2991-2015", 
+            "bibtex": "\"@misc{\n  title={The Louvain-La-Neuve sea ice model LIM3. 6: global and regional capabilities, Geosci. Model Dev., 8, 2991--3005},\n  author={Rousset, C and Vancoppenolle, M and Madec, G and Fichefet, T and Flavoni, S and Barth{\\'e}lemy, A and Benshila, R and Chanut, J and Levy, C and Masson, S and others},\n  year={2015}\n}\"", 
+            "url": "https://hal.archives-ouvertes.fr/hal-01234098/document", 
+            "long_name": "The Louvain-la-Neuve sea ice model LIM3.6: global and regional capabilities"
+        }, 
+        {
+            "mnemonic": "Vancoppenolle2009", 
+            "doi": "10.1016/j.ocemod.2008.10.005", 
+            "bibtex": "\"@article{\n  title={Simulating the mass balance and salinity of Arctic and Antarctic sea ice. 1. Model description and validation},\n  author={Vancoppenolle, Martin and Fichefet, Thierry and Goosse, Hugues and Bouillon, Sylvain and Madec, Gurvan and Maqueda, Miguel Angel Morales},\n  journal={Ocean Modelling},\n  volume={27},\n  number={1-2},\n  pages={33--53},\n  year={2009},\n  publisher={Elsevier}\n}\"", 
+            "url": "https://www.sciencedirect.com/science/article/pii/S1463500308001613", 
+            "long_name": "Simulating the mass balance and salinity of Arctic and Antarctic sea ice. 1. Model description and validation"
+        }, 
+        {
+            "mnemonic": "Aumont2006", 
+            "doi": "10.1029/2005GB002591", 
+            "bibtex": "\"@article{\n  title={Globalizing results from ocean in situ iron fertilization studies},\n  author={Aumont, Oliver and Bopp, Laurent},\n  journal={Global Biogeochemical Cycles},\n  volume={20},\n  number={2},\n  year={2006},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005GB002591", 
+            "long_name": "Globalizing results from ocean in situ iron fertilization studies"
+        }, 
+        {
+            "mnemonic": "Wanninkhof2014", 
+            "doi": "10.4319/lom.2014.12.351", 
+            "bibtex": "\"@article{\n  title={Relationship between wind speed and gas exchange over the ocean revisited},\n  author={Wanninkhof, Rik},\n  journal={Limnology and Oceanography: Methods},\n  volume={12},\n  number={6},\n  pages={351--362},\n  year={2014},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lom.2014.12.351", 
+            "long_name": "Relationship between wind speed and gas exchange over the ocean revisited"
+        }, 
+        {
+            "mnemonic": "Lengaigne2007", 
+            "doi": "10.1007/s00382-006-0200-2", 
+            "bibtex": "\"@article{\n  title={Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model},\n  author={Lengaigne, Matthieu and Menkes, Christophe and Aumont, Olivier and Gorgues, Thomas and Bopp, Laurent and Andr{\\'e}, Jean-Michel and Madec, Gurvan},\n  journal={Climate Dynamics},\n  volume={28},\n  number={5},\n  pages={503--516},\n  year={2007},\n  publisher={Springer}\n}\"", 
+            "url": "https://link.springer.com/article/10.1007/s00382-006-0200-2", 
+            "long_name": "Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model"
+        }, 
+        {
+            "mnemonic": "Ludwig1996", 
+            "doi": "N/A", 
+            "bibtex": "\"@article{\n  title={River discharges of carbon to the world's oceans: determining local inputs of alkalinity and of dissolved and particulate organic carbon},\n  author={Ludwig, Wolfgang and Amiotte Suchet, Philippe and Probst, Jean-Luc},\n  journal={Sciences de la terre et des plan{\\`e}tes (Comptes rendus de l'Acad{\\'e}mie des sciences)},\n  volume={323},\n  pages={1007--1014},\n  year={1996},\n  publisher={Gauthier-Villars}\n}\"", 
+            "url": "http://oatao.univ-toulouse.fr/3498/", 
+            "long_name": "River discharges of carbon to the world's oceans: determining local inputs of alkalinity and of dissolved and particulate organic carbon"
+        }, 
+        {
+            "mnemonic": "Aumont2008", 
+            "doi": "10.1029/2007GL031131", 
+            "bibtex": "\"@article{\n  title={What does temporal variability in aeolian dust deposition contribute to sea-surface iron and chlorophyll distributions?},\n  author={Aumont, Olivier and Bopp, Laurent and Schulz, M},\n  journal={Geophysical Research Letters},\n  volume={35},\n  number={7},\n  year={2008},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GL031131", 
+            "long_name": "What does temporal variability in aeolian dust deposition contribute to sea-surface iron and chlorophyll distributions?"
+        }, 
+        {
+            "mnemonic": "Coon1974", 
+            "doi": null, 
+            "bibtex": "\"@article{_x000D_\n  title={Modeling the pack ice as an elastic-plastic material},_x000D_\n  author={Coon, MD and Maykut, GA and Pritchard, RS and Rothrock, DA and Thordnike, AS},_x000D_\n  year={1974},_x000D_\n  journal={AIDJEX Bull.},_x000D_\n  volume={24},_x000D_\n  pages={1--106}_x000D_\n}\"", 
+            "url": null, 
+            "long_name": "Modeling the pack ice as an elastic-plastic material"
+        }, 
+        {
+            "mnemonic": "Lipscomb2001", 
+            "doi": "10.1029/2000JC000518", 
+            "bibtex": "\"@article{\n  title={Remapping the thickness distribution in sea ice models},\n  author={Lipscomb, William H},\n  journal={Journal of Geophysical Research: Oceans},\n  volume={106},\n  number={C7},\n  pages={13989--14000},\n  year={2001},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JC000518", 
+            "long_name": "Remapping the thickness distribution in sea ice models"
+        }, 
+        {
+            "mnemonic": "Hibler1979", 
+            "doi": "10.1175/1520-0485(1979)009<0815:ADTSIM>2.0.CO;2", 
+            "bibtex": "\"@article{\n  title={A dynamic thermodynamic sea ice model},\n  author={Hibler III, WD},\n  journal={Journal of physical oceanography},\n  volume={9},\n  number={4},\n  pages={815--846},\n  year={1979}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1979)009%3C0815:ADTSIM%3E2.0.CO;2", 
+            "long_name": "A Dynamic Thermodynamic Sea Ice Model"
+        }, 
+        {
+            "mnemonic": "Bouillon2013", 
+            "doi": "10.1016/j.ocemod.2013.05.013", 
+            "bibtex": "\"@article{\n  title={The elastic--viscous--plastic method revisited},\n  author={Bouillon, Sylvain and Fichefet, Thierry and Legat, Vincent and Madec, Gurvan},\n  journal={Ocean Modelling},\n  volume={71},\n  pages={2--12},\n  year={2013},\n  publisher={Elsevier}\n}\"", 
+            "url": "https://www.sciencedirect.com/science/article/pii/S146350031300098X", 
+            "long_name": "The elastic\u2013viscous\u2013plastic method revisited"
+        }, 
+        {
+            "mnemonic": "Prather1986", 
+            "doi": "10.1029/JD091iD06p06671", 
+            "bibtex": "\"@article{\n  title={Numerical advection by conservation of second-order moments},\n  author={Prather, Michael J},\n  journal={Journal of Geophysical Research: Atmospheres},\n  volume={91},\n  number={D6},\n  pages={6671--6681},\n  year={1986},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JD091iD06p06671", 
+            "long_name": "Numerical advection by conservation of second\u2010order moments"
+        }, 
+        {
+            "mnemonic": "Pringle2007", 
+            "doi": "10.1029/2006JC003641", 
+            "bibtex": "\"@article{\n  title={Thermal conductivity of landfast Antarctic and Arctic sea ice},\n  author={Pringle, DJ and Eicken, H and Trodahl, HJ and Backstrom, LGE},\n  journal={Journal of Geophysical Research: Oceans},\n  volume={112},\n  number={C4},\n  year={2007},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JC003641", 
+            "long_name": "Thermal conductivity of landfast Antarctic and Arctic sea ice"
+        }, 
+        {
+            "mnemonic": "BitzLipscomb1999", 
+            "doi": "10.1029/1999JC900100", 
+            "bibtex": "\"@article{\n  title={An energy-conserving thermodynamic model of sea ice},\n  author={Bitz, Cecilia M and Lipscomb, William H},\n  journal={Journal of Geophysical Research: Oceans},\n  volume={104},\n  number={C7},\n  pages={15669--15677},\n  year={1999},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/1999JC900100", 
+            "long_name": "An energy\u2010conserving thermodynamic model of sea ice"
+        }, 
+        {
+            "mnemonic": "Kovacs1996", 
+            "doi": null, 
+            "bibtex": "\"@techreport{\n  title={Sea ice. Part 1. Bulk salinity versus ice floe thickness},\n  author={Kovacs, Austin},\n  year={1996},\n  institution={COLD REGIONS RESEARCH AND ENGINEERING LAB HANOVER NH}\n}\"", 
+            "url": "https://apps.dtic.mil/dtic/tr/fulltext/u2/a312027.pdf", 
+            "long_name": "Sea Ice. Part 1. Bulk Salinity Versus Ice Floe Thickness,"
+        }, 
+        {
+            "mnemonic": "MaykutUntersteiner1971", 
+            "doi": "10.1029/JC076i006p01550", 
+            "bibtex": "\"@article{\n  title={Some results from a time-dependent thermodynamic model of sea ice},\n  author={Maykut, Gary A and Untersteiner, Norbert},\n  journal={Journal of Geophysical Research},\n  volume={76},\n  number={6},\n  pages={1550--1575},\n  year={1971},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JC076i006p01550", 
+            "long_name": "Some results from a time\u2010dependent thermodynamic model of sea ice"
+        }, 
+        {
+            "mnemonic": "ShineHendersonSellers1985", 
+            "doi": "10.1029/JD090iD01p02243", 
+            "bibtex": "\"@article{\n  title={The sensitivity of a thermodynamic sea ice model to changes in surface albedo parameterization},\n  author={Shine, KP and Henderson-Sellers, A},\n  journal={Journal of Geophysical Research: Atmospheres},\n  volume={90},\n  number={D1},\n  pages={2243--2250},\n  year={1985},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/JD090iD01p02243", 
+            "long_name": "The sensitivity of a thermodynamic sea ice model to changes in surface albedo parameterization"
+        }, 
+        {
+            "mnemonic": "GrenfellPerovich2004", 
+            "doi": "10.1029/2003JC001866", 
+            "bibtex": "\"@article{\n  title={Seasonal and spatial evolution of albedo in a snow-ice-land-ocean environment},\n  author={Grenfell, Thomas C and Perovich, Donald K},\n  journal={Journal of Geophysical Research: Oceans},\n  volume={109},\n  number={C1},\n  year={2004},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2003JC001866", 
+            "long_name": "Seasonal and spatial evolution of albedo in a snow\u2010ice\u2010land\u2010ocean environment"
+        }, 
+        {
+            "mnemonic": "Brandt2005", 
+            "doi": "10.1175/JCLI3489.1", 
+            "bibtex": "\"@article{\n  title={Surface albedo of the Antarctic sea ice zone},\n  author={Brandt, Richard E and Warren, Stephen G and Worby, Anthony P and Grenfell, Thomas C},\n  journal={Journal of Climate},\n  volume={18},\n  number={17},\n  pages={3606--3622},\n  year={2005}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/JCLI3489.1", 
+            "long_name": "Surface Albedo of the Antarctic Sea Ice Zone"
+        }, 
+        {
+            "mnemonic": "Wang2016", 
+            "doi": "10.5194/gmd-9-363-2016", 
+            "bibtex": "\"@article{\n  title={The improvement of soil thermodynamics and its effects on land surface meteorology in the IPSL climate model},\n  author={Wang, Fuxing and Cheruy, Fr{\\'e}d{\\'e}rique and Dufresne, J-L},\n  journal={Geoscientific Model Development},\n  volume={9},\n  number={1},\n  pages={363--381},\n  year={2016},\n  publisher={Copernicus GmbH}\n}\"", 
+            "url": "https://www.geosci-model-dev.net/9/363/2016/gmd-9-363-2016.html", 
+            "long_name": "The improvement of soil thermodynamics and its effects on land surface meteorology in the IPSL climate model"
+        }, 
+        {
+            "mnemonic": "Sadourny1984", 
+            "doi": null, 
+            "bibtex": "\"@incollection{\n   author = {Sadourny,R. and Laval,K.},\n   address = {Amsterdam},\n   booktitle = {New perspectives in Climate Modeling},\n   editor = {A.~Berger and C.~Nicolis},\n   key = {Sadourny, Laval, 1984},\n   pages = {173-197},\n   series = {Elsevier},\n   title = {January and {July} performance of the \\protect{LMD} General Circulation Model},\n   year = {1984}\n}\"", 
+            "url": null, 
+            "long_name": "New perspectives in Climate Modeling"
+        }, 
+        {
+            "mnemonic": "VanLeer1977", 
+            "doi": null, 
+            "bibtex": "\"@article{\n   author = {Van Leer , Bram},\n   journal = {J. Computational Phys.},\n   pages = {276-299},\n   title = {Towards the ultimate conservative difference scheme : {IV.} A new approach to numerical convection},\n   volume = {23},\n   year = {1977}\n}\"", 
+            "url": "https://www.researchgate.net/profile/Bram_Van_Leer/publication/266987705_Towards_the_Ultimate_Conservative_Difference_Scheme_IV_A_New_Approach_to_Numerical_Convection/links/59ea1757aca272cddddb73e8/Towards-the-Ultimate-Conservative-Difference-Scheme-IV-A-New-Approach-to-Numerical-Convection.pdf", 
+            "long_name": "Towards the ultimate conservative difference scheme : {IV.} A new approach to numerical convection"
+        }, 
+        {
+            "mnemonic": "Hourdin1999", 
+            "doi": null, 
+            "bibtex": "\"@article{\n   author = {Hourdin , F. and Armengaud , A.},\n   journal = {Mon. Wea. Rev.},\n   pages = {822--837},\n   title = {The Use of Finite-Volume Methods for Atmospheric Advection of Trace Species. Part I: Test of Vairious Formulations in a General Circulation Model},\n   volume = {127},\n   year = {1999}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0493(1999)127%3C0822%3ATUOFVM%3E2.0.CO%3B2", 
+            "long_name": "The Use of Finite-Volume Methods for Atmospheric Advection of Trace Species. Part I: Test of Vairious Formulations in a General Circulation Model"
+        }, 
+        {
+            "mnemonic": "Hourdin2013a", 
+            "doi": "10.1007/s00382-012-1343-y", 
+            "bibtex": "\"@article{\n   author = {{Hourdin}, F. and {Grandpeix}, J.-Y. and {Rio}, C. and {Bony}, S. and {Jam}, A. and {Cheruy}, F. and {Rochetin}, N. and {Fairhead}, L. and {Idelkadi}, A. and {Musat}, I. and {Dufresne}, J.-L. and {Lahellec}, A. and {Lefebvre}, M.-P. and {Roehrig}, R.},\n    title = \"{LMDZ5B: the atmospheric component of the IPSL climate model with revisited parameterizations for clouds and convection}\",\n  journal = {Clim. Dyn},\n keywords = {Climate modeling, Physical parameterizations, Shallow convection, Deep convection, Climate change projections},\n     year = 2013,\n    month = may,\n   volume = 40,\n    pages = {2193-2222},\n      doi = {10.1007/s00382-012-1343-y},\n   adsurl = {http://adsabs.harvard.edu/abs/2013ClDy...40.2193H},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2013ClDy...40.2193H", 
+            "long_name": "LMDZ5B: the atmospheric component of the IPSL climate model with revisited parameterizations for clouds and convection"
+        }, 
+        {
+            "mnemonic": "Hourdin2013b", 
+            "doi": "10.1007/s00382-012-1411-3", 
+            "bibtex": "\"@article{\n   author = {{Hourdin}, F. and {Foujols}, M.-A. and {Codron}, F. and {Guemas}, V. and {Dufresne}, J.-L. and {Bony}, S. and {Denvil}, S. and {Guez}, L. and {Lott}, F. and {Ghattas}, J. and {Braconnot}, P. and {Marti}, O. and {Meurdesoif}, Y. and {Bopp}, L.},\n    title = \"{Impact of the LMDZ atmospheric grid configuration on the climate and sensitivity of the IPSL-CM5A coupled model}\",\n  journal = {Clim. Dyn.},\n keywords = {Climate modeling, Grid resolution, Climate change projections},\n     year = 2013,\n    month = may,\n   volume = 40,\n    pages = {2167-2192},\n      doi = {10.1007/s00382-012-1411-3},\n   adsurl = {http://adsabs.harvard.edu/abs/2013ClDy...40.2167H},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2013ClDy...40.2167H", 
+            "long_name": "Impact of the LMDZ atmospheric grid configuration on the climate and sensitivity of the IPSL-CM5A coupled model"
+        }, 
+        {
+            "mnemonic": "Yamada1983", 
+            "doi": null, 
+            "bibtex": "\"@article{\n   author = {Yamada , T.},\n   journal = {J. Atmos. Sci.},\n   pages = {91--106},\n   title = {Simulations of Nocturnal Drainage Flows by a $q^2l$ Turbulence Closure Model},\n   volume = {40},\n   year = {1983}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469(1983)040%3C0091:SONDFB%3E2.0.CO;2", 
+            "long_name": "Simulations of Nocturnal Drainage Flows by a q\u00b2l Turbulence Closure Model"
+        }, 
+        {
+            "mnemonic": "Hourdin2002", 
+            "doi": null, 
+            "bibtex": "\"@article{\n   author = {Hourdin , F. and Couvreux , F. and Menut , L.},\n   journal = {J. Atmos. Sci.},\n   title = {Parameterisation of the dry convective boundary layer based on a mass flux representation of thermals},\n   volume = {59},\n   pages = {1105--1123},\n   year = {2002}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469(2002)059%3C1105%3APOTDCB%3E2.0.CO%3B2", 
+            "long_name": "Parameterisation of the dry convective boundary layer based on a mass flux representation of thermals"
+        }, 
+        {
+            "mnemonic": "Rio2008", 
+            "doi": null, 
+            "bibtex": "\"@article{Rio:08,\n   author = {Rio , C. and Hourdin , F.},\n   title={A thermal plume model for the convective boundary layer : Representation of cumulus clouds},\n   journal={J. Atmos. Sci.},\n   volume=65,\n   pages={407--425},\n   year = {2008}\n}\"", 
+            "url": null, 
+            "long_name": "A thermal plume model for the convective boundary layer : Representation of cumulus clouds"
+        }, 
+        {
+            "mnemonic": "Rio2009", 
+            "doi": "10.1029/2008GL036779", 
+            "bibtex": "\"@article{\n   author = {{Rio}, C. and {Hourdin}, F. and {Grandpeix}, {J.-Y.} and {Lafore}, {J.-P.}\n        },\n    title = \"{Shifting the diurnal cycle of parameterized deep convection over land}\",\n  journal = grl,\n keywords = {Atmospheric Processes: Convective processes, Atmospheric Processes: Boundary layer processes, Atmospheric Processes: Precipitation (1854), Atmospheric Processes: Global climate models (1626, 4928)},\n     year = 2009,\n    month = apr,\n   volume = 36,\n    pages = {7809-+},\n      doi = {10.1029/2008GL036779},\n   adsurl = {http://adsabs.harvard.edu/abs/2009GeoRL..3607809R},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2009GeoRL..3607809R", 
+            "long_name": "Shifting the diurnal cycle of parameterized deep convection over land"
+        }, 
+        {
+            "mnemonic": "Rio2010", 
+            "doi": "10.1007/s10546-010-9478-z", 
+            "bibtex": "\"@article{\n   author = {{Rio}, C. and {Hourdin}, F. and {Couvreux}, F. and {Jam}, A.},\n    title = \"{Resolved Versus Parametrized Boundary-Layer Plumes. Part II: Continuous Formulations of Mixing Rates for Mass-Flux Schemes}\",\n  journal = blm,\n keywords = {Boundary-layer thermals, Entrainment and detrainment, Large-eddy simulations, Mass-flux parametrization},\n     year = 2010,\n    month = jun,\n   volume = 135,\n    pages = {469-483},\n      doi = {10.1007/s10546-010-9478-z},\n   adsurl = {http://adsabs.harvard.edu/abs/2010BoLMe.135..469R},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2010BoLMe.135..469R", 
+            "long_name": "Boundary-layer thermals, Entrainment and detrainment, Large-eddy simulations, Mass-flux parametrization"
+        }, 
+        {
+            "mnemonic": "Grandpeix2010a", 
+            "doi": "10.1175/2009JAS3044.1", 
+            "bibtex": "\"@article{\n   author = {{Grandpeix}, {J.-Y.} and {Lafore}, {J.-P.}},\n    title = \"{A Density Current Parameterization Coupled with Emanuel's Convection Scheme. Part I: The Models}\",\n  journal = {Journal of Atmospheric Sciences},\n     year = 2010,\n    month = apr,\n   volume = 67,\n    pages = {881-897},\n      doi = {10.1175/2009JAS3044.1},\n   adsurl = {http://adsabs.harvard.edu/abs/2010JAtS...67..881G},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2010JAtS...67..881G", 
+            "long_name": "A Density Current Parameterization Coupled with Emanuel's Convection Scheme. Part I: The Models"
+        }, 
+        {
+            "mnemonic": "Grandpeix2010b", 
+            "doi": "10.1175/2009JAS3045.1", 
+            "bibtex": "\"@article{\n   author = {{Grandpeix}, {J.-Y.} and {Lafore}, {J.-P.} and {Cheruy}, F.},\n    title = \"{A Density Current Parameterization Coupled with Emanuel's Convection Scheme. Part II: 1D Simulations}\",\n  journal = {Journal of Atmospheric Sciences},\n     year = 2010,\n    month = apr,\n   volume = 67,\n    pages = {898-922},\n      doi = {10.1175/2009JAS3045.1},\n   adsurl = {http://adsabs.harvard.edu/abs/2010JAtS...67..898G},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2010JAtS...67..898G", 
+            "long_name": "A Density Current Parameterization Coupled with Emanuel's Convection Scheme. Part II: 1D Simulations"
+        }, 
+        {
+            "mnemonic": "Bony2001", 
+            "doi": null, 
+            "bibtex": "\"@article{\n   author  = {Bony , S. and Emanuel , K. A.},\n   title = {A parameterization of the Cloudiness Associated with Cumulus Convection; Evaluation Using {TOGA COARE} Data},\n   journal = {J. Atmos. Sci.},\n   volume = 58,\n   pages = {3158--3183},\n   year = 2001\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469(2001)058%3C3158%3AAPOTCA%3E2.0.CO%3B2", 
+            "long_name": "A parameterization of the Cloudiness Associated with Cumulus Convection; Evaluation Using TOGA COARE Data"
+        }, 
+        {
+            "mnemonic": "Jam2013", 
+            "doi": "10.1007/s10546-012-9789-3", 
+            "bibtex": "\"@article{\n   author = {{Jam}, A. and {Hourdin}, F. and {Rio}, C. and {Couvreux}, F.  },\n    title = \"{Resolved Versus Parametrized Boundary-Layer Plumes. Part III: Derivation of a Statistical Scheme for Cumulus Clouds}\",\n  journal = {Boundary-layer Meteorol.},\n keywords = {Boundary-layer thermals, Cloud scheme, Conditional sampling, Large-eddy simulations, Probability distribution function},\n     year = 2013,\n    month = jun,\n   volume = 147,\n    pages = {421-441},\n      doi = {10.1007/s10546-012-9789-3},\n   adsurl = {http://adsabs.harvard.edu/abs/2013BoLMe.147..421J},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "http://adsabs.harvard.edu/abs/2013BoLMe.147..421J", 
+            "long_name": "Resolved Versus Parametrized Boundary-Layer Plumes. Part III: Derivation of a Statistical Scheme for Cumulus Clouds"
+        }, 
+        {
+            "mnemonic": "Rochetin2014a", 
+            "doi": "10.1175/JAS-D-12-0336.1", 
+            "bibtex": "\"@article{\n       author = {{Rochetin}, Nicolas and {Couvreux}, Fleur and {Grandpeix}, Jean-Yves and {Rio}, Catherine},\n        title = \"{Deep Convection Triggering by Boundary Layer Thermals. Part I: LES Analysis and Stochastic Triggering Formulation}\",\n      journal = jas,\n         year = 2014,\n        month = Feb,\n       volume = {71},\n        pages = {496-514},\n          doi = {10.1175/JAS-D-12-0336.1},\n       adsurl = {https://ui.adsabs.harvard.edu/#abs/2014JAtS...71..496R},\n      adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "https://ui.adsabs.harvard.edu/#abs/2014JAtS...71..496R", 
+            "long_name": "Deep Convection Triggering by Boundary Layer Thermals. Part I: LES Analysis and Stochastic Triggering Formulation"
+        }, 
+        {
+            "mnemonic": "Rochetin2014b", 
+            "doi": "10.1175/JAS-D-12-0337.1", 
+            "bibtex": "\"@article{\n       author = {{Rochetin}, Nicolas and {Grandpeix}, Jean-Yves and {Rio}, Catherine and {Couvreux}, Fleur},\n        title = \"{Deep Convection Triggering by Boundary Layer Thermals. Part II: Stochastic Triggering Parameterization for the LMDZ GCM}\",\n      journal = {J. Atmos. Sci.},\n         year = 2014,\n        month = Feb,\n       volume = {71},\n        pages = {515-538},\n          doi = {10.1175/JAS-D-12-0337.1},\n       adsurl = {https://ui.adsabs.harvard.edu/#abs/2014JAtS...71..515R},\n      adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\"", 
+            "url": "https://ui.adsabs.harvard.edu/#abs/2014JAtS...71..515R", 
+            "long_name": "Deep Convection Triggering by Boundary Layer Thermals. Part II: Stochastic Triggering Parameterization for the LMDZ GCM"
+        }, 
+        {
+            "mnemonic": "Lott2013", 
+            "doi": "10.1002/jgrd.50705", 
+            "bibtex": "\"@article{\n    author      = {Lott, F. and Guez, L.},\n    year        = 2013,\n    title       = {A Stochastic Parameterization of the Gravity Waves Due to Convection and Its Impact on the Equatorial Stratosphere},\n    journal     = {J. Geophys. Res.},\n    volume      = 118,\n    pages       = {8897--8909},\n    doi         = {10.1002/jgrd.50705}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/jgrd.50705", 
+            "long_name": "A Stochastic Parameterization of the Gravity Waves Due to Convection and Its Impact on the Equatorial Stratosphere"
+        }, 
+        {
+            "mnemonic": "delaCamara2015", 
+            "doi": "10.1002/GL063298", 
+            "bibtex": "\"@article{\n    author      = {de~la C\\'{a}mara, A. and Lott, F.},\n    year        = 2015,\n    title       = {A Stochastic Parameterization of the Gravity Waves Emitted by Fronts and Jets},\n    journal     = {Geophys. Res. Lett.},\n    volume      = 42,\n    pages       = {2071--2078},\n    doi         = {10.1002/GL063298}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015GL063298", 
+            "long_name": "A Stochastic Parameterization of the Gravity Waves Emitted by Fronts and Jets"
+        }, 
+        {
+            "mnemonic": "Lott2015", 
+            "doi": "10.1007/s00382-005-0064-x", 
+            "bibtex": "\"@article{\n    author      = {Lott, F. and Fairhead, L. and Hourdin, F. and Levan, P.},\n    year        = 2005,\n    title       = {The stratospheric version of LMDz: Dynamical Climatologies, Arctic Oscillation, and Impact on the Surface Climate},\n    journal     = {Clim. Dyn.},\n    volume      = 25,\n    pages       = {851--868},\n    doi         = {10.1007/s00382-005-0064-x}\n}\"", 
+            "url": "https://link.springer.com/article/10.1007/s00382-005-0064-x", 
+            "long_name": "The stratospheric version of LMDz: Dynamical Climatologies, Arctic Oscillation, and Impact on the Surface Climate"
+        }, 
+        {
+            "mnemonic": "Hines1997", 
+            "doi": "10.1016/S1364-6826(96)00080-6", 
+            "bibtex": "\"@article{\nauthor = {Hines, C.~O.},\nnumber = {4},\npages = {387--400},\ntitle = {{Doppler-spread parameterization of gravity-wave momentum deposition in the middle atmosphere. Part 2: Broad and quasi monochromatic spectra, and implementation}},\njournal = {J. of Atmosph. and Solar-Terrestrial Phys.},\nvolume = {59},\nyear = {1997}\n}\"", 
+            "url": "https://www.sciencedirect.com/science/article/pii/S1364682696000806", 
+            "long_name": "Doppler-spread parameterization of gravity-wave momentum deposition in the middle atmosphere. Part 2: Broad and quasi monochromatic spectra, and implementation"
+        }, 
+        {
+            "mnemonic": "delaCamara2016", 
+            "doi": "10.1002/2016MS000753", 
+            "bibtex": "\"@article{\nauthor = {de la C\\'{a}mara, A. and Lott, F. and Abalos, M.},\ntitle = {Climatology of the middle atmosphere in LMDz: Impact of source-related parameterizations of gravity wave drag},\njournal = {J. of Adv. in Modeling Earth Systems},\nvolume = {8},\nnumber = {4},\npages = {1507-1525},\nyear = {2016}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016MS000753", 
+            "long_name": "Climatology of the middle atmosphere in LMDz: Impact of source-related parameterizations of gravity wave drag"
+        }, 
+        {
+            "mnemonic": "Fouquart1980", 
+            "doi": null, 
+            "bibtex": "\"@article{\nauthor={Fouquart Y and Bonnel B},\nyear=1980,\ntitle={Computations of solar heating of the Earth\u2019s atmosphere: a new parametrization},\njournal={Contrib. Atmos. Phys.},\nvolume=53,\npages={35--62}\n}\"", 
+            "url": null, 
+            "long_name": "Computations of solar heating of the Earth\u2019s atmosphere: a new parametrization"
+        }, 
+        {
+            "mnemonic": "Mlawer1997", 
+            "doi": "10.1029/97JD00237", 
+            "bibtex": "\"@article{\nauthor={Mlawer, E.J. and S.J. Taubman and P.D. Brown and M.J. Iacono and S.A. Clough},\nyear=1997,\ntitle={Radiative transfer for inhomogeneous atmospheres: {RRTM}, a validated correlated-k model for the longwave},\njournal={J. Geophys. Res.},\nvolume={102D},\npages={16663--16,682}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/97JD00237", 
+            "long_name": "Radiative transfer for inhomogeneous atmospheres: RRTM, a validated correlated-k model for the longwave"
+        }, 
+        {
+            "mnemonic": "LeTreut1991", 
+            "doi": "10.1007/BF00251808", 
+            "bibtex": "\"@article{\n  title={Sensitivity of an atmospheric general circulation model to prescribed {SST} changes: Feedback effects associated with the simulation of cloud optical properties},\n  author={Le Treut, Herv{\\'e} and Li, Zhao-Xin},\n  journal={Climate Dynamics},\n  volume={5},\n  number={3},\n  pages={175--187},\n  year={1991},\n  publisher={Springer}\n}\"", 
+            "url": "https://link.springer.com/content/pdf/10.1007/BF00251808.pdf", 
+            "long_name": "Sensitivity of an atmospheric general circulation model to prescribed SST changes: Feedback effects associated with the simulation of cloud optical properties"
+        }, 
+        {
+            "mnemonic": "Hourdin2006", 
+            "doi": "10.1007/s00382-006-0158-0", 
+            "bibtex": "\"@article{\n    author = {Hourdin, F. and {Musat}, I. and {Bony}, S. and {Braconnot}, P. and {Codron}, F. and {Dufresne}, J.-L. and {Fairhead}, L. and {Filiberti}, M.-A. and {Friedlingstein}, P. and {Grandpeix}, J.-Y. and {Krinner}, G. and {Levan}, P. and {Li}, Z.-X. and {Lott}, F.},\n     title = \"{The LMDZ4 general circulation model: climate performance and sensitivity to parametrized physics with emphasis on tropical convection}\",\n   journal = {Climate Dynamics},\n      year = 2006,\n    volume = 27,\n     pages = {787--813},\n       doi = {10.1007/s00382-006-0158-0}\n}\"", 
+            "url": "https://link.springer.com/article/10.1007/s00382-006-0158-0", 
+            "long_name": "The LMDZ4 general circulation model: climate performance and sensitivity to parametrized physics with emphasis on tropical convection"
+        }, 
+        {
+            "mnemonic": "Zhang2017", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Krinner2005", 
+            "doi": "10.1029/2003GB002199", 
+            "bibtex": "\"@article{\n  title={A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system},\n  author={Krinner, Gerhard and Viovy, Nicolas and de Noblet-Ducoudr{\\'e}, Nathalie and Og{\\'e}e, J{\\'e}r{\\^o}me and Polcher, Jan and Friedlingstein, Pierre and Ciais, Philippe and Sitch, Stephen and Prentice, I Colin},\n  journal={Global Biogeochemical Cycles},\n  volume={19},\n  number={1},\n  year={2005},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2003GB002199", 
+            "long_name": "A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system"
+        }, 
+        {
+            "mnemonic": "Ducoudre1993", 
+            "doi": null, 
+            "bibtex": "\"@article{\n  title={{SECHIBA}, a new set of parameterizations of the hydrologic exchanges at the land-atmosphere interface within the {LMD} atmospheric general circulation model},\n  author={Ducoudr{\\'e}, Nathale I and Laval, Katia and Perrier, Alain},\n  journal={Journal of Climate},\n  volume={6},\n  number={2},\n  pages={248--273},\n  year={1993}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0442(1993)006%3C0248:SANSOP%3E2.0.CO%3B2", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "deRosnay1998", 
+            "doi": null, 
+            "bibtex": "\"@article{\n  title={Modelling root water uptake in a complex land surface scheme coupled to a {GCM}},\n  author={De Rosnay, Patricia and Polcher, Jan},\n  journal={Hydrology and Earth System Sciences Discussions},\n  volume={2},\n  number={2/3},\n  pages={239--255},\n  year={1998}\n}\"", 
+            "url": "https://hal.archives-ouvertes.fr/file/index/docid/330830/filename/hess-2-239-1998.pdf", 
+            "long_name": "Modelling root water uptake in a complex land surface scheme coupled to a GCM"
+        }, 
+        {
+            "mnemonic": "dOrgeval2008", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "deRosnay2003", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Farquhar1980", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Collatz1992", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ball1987", 
+            "doi": null, 
+            "bibtex": "\"@incollection{\n  title={A model predicting stomatal conductance and its contribution to the control of photosynthesis under different environmental conditions},\n  author={Ball, J Timothy and Woodrow, Ian E and Berry, Joseph A},\n  booktitle={Progress in photosynthesis research},\n  pages={221--224},\n  year={1987},\n  publisher={Springer}\n}\"", 
+            "url": null, 
+            "long_name": "A model predicting stomatal conductance and its contribution to the control of photosynthesis under different environmental conditions"
+        }, 
+        {
+            "mnemonic": "Zhang2016", 
+            "doi": null, 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "deRosnay2000", 
+            "doi": "10.1029/2000GL011574", 
+            "bibtex": "\"@article{\n  title={Sensitivity of surface fluxes to the number of layers in the soil model used in {GCM}s},\n  author={De Rosnay, P and Bruen, M and Polcher, J},\n  journal={Geophysical research letters},\n  volume={27},\n  number={20},\n  pages={3329--3332},\n  year={2000},\n  publisher={Wiley Online Library}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2000GL011574", 
+            "long_name": "Sensitivity of surface fluxes to the number of layers in the soil model used in GCMs"
+        }
+    ]
+}
