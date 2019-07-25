@@ -1,0 +1,43 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ipsl", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "IPSL", 
+            "name": "Institut Pierre-Simon Laplace", 
+            "is_organisation": false, 
+            "address_postal": "Sorbonne Universit\u00e9, Campus Pierre et Marie Curie, 4 place Jussieu, Tour 45-55, 2e \u00e9tage, Bo\u00eete 101, 75252 Paris Cedex 05, France", 
+            "address_email": null, 
+            "url": "https://www.ipsl.fr", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Vancoppenolle-Martin", 
+            "name": "Martin Vancoppenolle", 
+            "is_organisation": false, 
+            "address_postal": "LOCEAN-IPSL, Sorbonne Universit\u00e9, Campus Pierre et Marie Curie, 4 place Jussieu, Tour 45-55, 4e \u00e9tage, Bureau 418, 75252 Paris Cedex 05, France", 
+            "address_email": "Martin.Vancoppenolle@locean-ipsl.upmc.fr", 
+            "url": null, 
+            "orcid": "https://orcid.org/0000-0002-7573-8582"
+        }, 
+        {
+            "mnemonic": "Boucher-Olivier", 
+            "name": "Olivier Boucher", 
+            "is_organisation": false, 
+            "address_postal": "LMD-IPSL, Sorbonne Universit\u00e9, Campus Pierre et Marie Curie, 4 place Jussieu, Tour 45-55, 4e \u00e9tage, Bureau 314, 75252 Paris Cedex 05, France", 
+            "address_email": "olivier.boucher@ipsl.fr", 
+            "url": null, 
+            "orcid": "http://orcid.org/0000-0003-2328-5769"
+        }, 
+        {
+            "mnemonic": "Ethe-Christian", 
+            "name": "Christian \u00c9th\u00e9", 
+            "is_organisation": false, 
+            "address_postal": "LOCEAN-IPSL, Sorbonne Universit\u00e9, Campus Pierre et Marie Curie, 4 place Jussieu, Tour 45-55, 4e \u00e9tage, Bureau 410, 75252 Paris Cedex 05, France", 
+            "address_email": "Christian.Ethe@locean-ipsl.upmc.fr", 
+            "url": null, 
+            "orcid": null
+        }
+    ]
+}
