@@ -319,13 +319,6 @@
             "long_name": "The LMDZ4 general circulation model: climate performance and sensitivity to parametrized physics with emphasis on tropical convection"
         }, 
         {
-            "mnemonic": "Zhang2017", 
-            "doi": null, 
-            "bibtex": null, 
-            "url": null, 
-            "long_name": null
-        }, 
-        {
             "mnemonic": "Krinner2005", 
             "doi": "10.1029/2003GB002199", 
             "bibtex": "\"@article{\n  title={A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system},\n  author={Krinner, Gerhard and Viovy, Nicolas and de Noblet-Ducoudr{\\'e}, Nathalie and Og{\\'e}e, J{\\'e}r{\\^o}me and Polcher, Jan and Friedlingstein, Pierre and Ciais, Philippe and Sitch, Stephen and Prentice, I Colin},\n  journal={Global Biogeochemical Cycles},\n  volume={19},\n  number={1},\n  year={2005},\n  publisher={Wiley Online Library}\n}\"", 
@@ -347,46 +340,11 @@
             "long_name": "Modelling root water uptake in a complex land surface scheme coupled to a GCM"
         }, 
         {
-            "mnemonic": "dOrgeval2008", 
-            "doi": null, 
-            "bibtex": null, 
-            "url": null, 
-            "long_name": null
-        }, 
-        {
-            "mnemonic": "deRosnay2003", 
-            "doi": null, 
-            "bibtex": null, 
-            "url": null, 
-            "long_name": null
-        }, 
-        {
-            "mnemonic": "Farquhar1980", 
-            "doi": null, 
-            "bibtex": null, 
-            "url": null, 
-            "long_name": null
-        }, 
-        {
-            "mnemonic": "Collatz1992", 
-            "doi": null, 
-            "bibtex": null, 
-            "url": null, 
-            "long_name": null
-        }, 
-        {
             "mnemonic": "Ball1987", 
             "doi": null, 
             "bibtex": "\"@incollection{\n  title={A model predicting stomatal conductance and its contribution to the control of photosynthesis under different environmental conditions},\n  author={Ball, J Timothy and Woodrow, Ian E and Berry, Joseph A},\n  booktitle={Progress in photosynthesis research},\n  pages={221--224},\n  year={1987},\n  publisher={Springer}\n}\"", 
             "url": null, 
             "long_name": "A model predicting stomatal conductance and its contribution to the control of photosynthesis under different environmental conditions"
-        }, 
-        {
-            "mnemonic": "Zhang2016", 
-            "doi": null, 
-            "bibtex": null, 
-            "url": null, 
-            "long_name": null
         }, 
         {
             "mnemonic": "deRosnay2000", 

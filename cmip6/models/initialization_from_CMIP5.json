@@ -1,4 +1,9 @@
 {
+    "4aop-v1-5": {
+        "toplevel": {
+            "initializedFrom": ""
+        }
+    }, 
     "ipsl-cm6a-atm-hr": {
         "toplevel": {
             "initializedFrom": ""
@@ -28,6 +33,28 @@
         }, 
         "seaice": {
             "initializedFrom": "cmip5:ipsl-cm5a-lr"
+        }
+    }, 
+    "ipsl-cm7a-atm-hr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }
+    }, 
+    "ipsl-cm7a-atm-lr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
         }
     }
 }
