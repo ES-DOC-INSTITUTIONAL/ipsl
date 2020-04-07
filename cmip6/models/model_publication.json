@@ -4,6 +4,32 @@
             "publish": "off"
         }
     }, 
+    "ipsl-cm5a2-inca": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    }, 
     "ipsl-cm6a-atm-hr": {
         "toplevel": {
             "publish": "off"
@@ -33,6 +59,29 @@
         }, 
         "seaice": {
             "publish": "on"
+        }
+    }, 
+    "ipsl-cm6a-lr-inca": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
         }
     }, 
     "ipsl-cm7a-atm-hr": {
