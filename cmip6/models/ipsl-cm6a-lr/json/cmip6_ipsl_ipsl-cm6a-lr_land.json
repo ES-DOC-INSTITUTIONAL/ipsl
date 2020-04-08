@@ -43,11 +43,6 @@
                 "A common vertical discretization is adopted when solving the heat and moisture transfer into the soil (Zhang et al. 2016). In the upper two meters, the discretization  is optimized  for the moisture transfer and for the most nonlinear process (de Rosnay et al., 2000), with 11 nodes from the surface up to 2m. The node distance of each layer below 2 m is set to 1 m, the total depth for the  soil is set to 90m. For the moisture a free drainage condition  implies that soil moisture  is constant below the lower node."
             ]
         }, 
-        "cmip6.land.grid.vertical.total_depth": {
-            "values": [
-                90.0
-            ]
-        }, 
         "cmip6.land.soil.heat_water_coupling": {
             "values": [
                 "the soil heat transfer and the moisture diffusion are coupled through the moisture dependence of the thermal properties"
@@ -55,7 +50,7 @@
         }, 
         "cmip6.land.soil.number_of_soil layers": {
             "values": [
-                18.0
+                18
             ]
         }, 
         "cmip6.land.soil.soil_map.texture": {
@@ -90,12 +85,12 @@
         }, 
         "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
             "values": [
-                2.0
+                2
             ]
         }, 
         "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
             "values": [
-                2.0
+                2
             ]
         }, 
         "cmip6.land.soil.hydrology.method": {
@@ -110,7 +105,7 @@
         }, 
         "cmip6.land.soil.heat_treatment.time_step": {
             "values": [
-                900.0
+                900
             ]
         }, 
         "cmip6.land.soil.heat_treatment.heat_storage": {
@@ -125,7 +120,7 @@
         }, 
         "cmip6.land.snow.number_of_snow_layers": {
             "values": [
-                1.0
+                1
             ]
         }, 
         "cmip6.land.snow.density": {
@@ -212,7 +207,7 @@
         }, 
         "cmip6.land.energy_balance.number_of_surface_temperatures": {
             "values": [
-                1.0
+                1
             ]
         }, 
         "cmip6.land.energy_balance.evaporation": {
@@ -227,7 +222,7 @@
         }, 
         "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
             "values": [
-                8.0
+                8
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
@@ -247,7 +242,7 @@
         }, 
         "cmip6.land.carbon_cycle.soil.number_of_carbon_pools": {
             "values": [
-                4.0
+                4
             ]
         }, 
         "cmip6.land.carbon_cycle.soil.carbon_pools": {
@@ -262,7 +257,7 @@
         }, 
         "cmip6.land.river_routing.number_of_reservoirs": {
             "values": [
-                3.0
+                3
             ]
         }, 
         "cmip6.land.river_routing.coupled_to_atmosphere": {
