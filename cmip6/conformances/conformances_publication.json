@@ -1,5 +1,444 @@
 {
     "stage one (i.e. default) conformances": {
         "publish": "on"
+    },
+    "stage two (i.e. final) conformances, arranged (key:value) by MIP -> Model": {
+        "AerChemMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "C4MIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "CDRMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "CFMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "CMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "DAMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "DCPP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "FAFMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "GMMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "GeoMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "HighResMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "LS3MIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "LUMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "OMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "PAMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "PMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "RFMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "ScenarioMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        },
+        "VolMIP": {
+            "4AOP-V1-5": {
+                "publish": "off"
+            },
+            "IPSL-CM5A2-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR": {
+                "publish": "off"
+            },
+            "IPSL-CM6A-LR-INCA": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-HR": {
+                "publish": "off"
+            },
+            "IPSL-CM7A-ATM-LR": {
+                "publish": "off"
+            }
+        }
     }
 }
